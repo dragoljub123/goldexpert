@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card1 {
+    width: 209px;
+    height: 264px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    position: relative;
+  }
+  
+  .icon1 {
+    width: 80px;
+    height: 80px;
+    
+    position: absolute;
+    top: 56px;
+    left: 67px;
+  }
+  
+  .text1 {
+    width: 166px;
+    height: 32px;
+    font-size: 16px;
+    color: #333333;
+    position: absolute;
+    top: 148px;
+    left: 24px;
+  }
+  
+  .icon-small1 {
+    width: 24px;
+    height: 24px;
+    
+    position: absolute;
+    top: 224px;
+    left: 93px;
+    padding: 2px;
+  }
+  .pozadina {
+    background: #183059;
+    /*background-image: url('');*/
+}
+
+  .granica {
+   
+    border: 1px solid white;
+  }
+
+  

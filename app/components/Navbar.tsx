@@ -16,7 +16,7 @@ export const Navbar = () => {
     { title: "About ", href: "/studio" },
   ];
   return (
-    <div className="w-full pozadina h-20   top-0 backdrop-blur-2xl transition-colors z-50">
+    <div className="w-full pozadina h-20   top-0 transition-colors z-50 ">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between  lg:px-0 h-full">
         <Logo title="Capitalrevo" className="text-black " />
         <div className="hidden md:inline-flex items-center gap-10 text-white hover:text-white duration-200">

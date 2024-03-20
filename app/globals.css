@@ -44,7 +44,7 @@
   background: #183059;
   background-image: url("images/Frame1.png");
   border-bottom-left-radius: 70px;
-  border-bottom-right-radius: 70px;
+  border-bottom-right-radius: 90px;
 }
 
 .granica {
@@ -55,10 +55,12 @@
 }
 .narandzasta2 {
   background: #f77000;
-  transform: rotate(0deg);
+
   padding-bottom: 20px;
-  border-bottom-left-radius: 70px;
-  border-bottom-right-radius: 70px;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 90px;
 }
 .primarna {
   color: #002857;

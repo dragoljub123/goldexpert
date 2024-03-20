@@ -10,13 +10,13 @@ interface SmallCardProps {
 const Smalcard: React.FC<SmallCardProps> = ({ imageSrc1, imageSrc2, text }) => {
   return (
     <div className="card1">
-      <div className="icon1">
+      <div className="">
         <img src={imageSrc1} alt="" />
       </div>
       <div className="text1 text-center ">
         <p>{text}</p>
       </div>
-      <div className="icon-small1">
+      <div className="">
         <img src={imageSrc2} alt="" />
       </div>
     </div>

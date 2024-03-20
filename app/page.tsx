@@ -5,7 +5,7 @@ import PostComponent from "./components/PostComponent";
 import Smalcard from "./components/Smalcard";
 import image23 from "@/app/images/image23.png";
 import Frame515 from "@/app/images/Frame515.png";
-import plus from "@/app/images/plus.png";
+
 import Stars from "@/app/images/Stars.png";
 import Image from "next/image";
 import { Navbar } from "./components/Navbar";
@@ -39,7 +39,7 @@ export default async function Home() {
       <div className="narandzasta2 ">
         <div className="pozadina  ">
           <Navbar />
-          <div className="flex items-center justify-center h-screen ">
+          <div className=" mx-auto flex items-center justify-center h-screen">
             <div className="flex flex-col w-full md:w-1/2 bg-transparent rounded-lg p-20 ">
               <h1 className="text-5xl text-white font-bold mb-4">
                 Trade forex and CFDs <br></br> with the{" "}
@@ -96,7 +96,7 @@ export default async function Home() {
       <div className="flex gap-10 justify-center ">
         <Smalcard
           imageSrc1="./images/circleoutline.png"
-          imageSrc2="@\app\images\plus.png"
+          imageSrc2="/app/images/plus.png"
           text="Forex"
         />
         <Smalcard

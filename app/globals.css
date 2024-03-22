@@ -65,3 +65,12 @@
 .primarna {
   color: #002857;
 }
+.poster {
+  width: 1300px;
+  height: 588px;
+  top: 1610px;
+  left: 70px;
+  gap: 0px;
+  border-radius: 40px;
+  opacity: 0;
+}

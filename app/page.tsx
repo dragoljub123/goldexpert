@@ -1,15 +1,13 @@
 import { client } from "@/sanity/lib/client";
-import { Hero } from "./components/Hero";
 import { Post } from "@/app/utils/interface";
 import PostComponent from "./components/PostComponent";
 import Smalcard from "./components/Smalcard";
 import image23 from "@/app/images/image23.png";
 import Frame515 from "@/app/images/Frame515.png";
-
 import Stars from "@/app/images/Stars.png";
 import Image from "next/image";
 import { Navbar } from "./components/Navbar";
-import { stringify } from "querystring";
+import { HomepageBanner } from "./components/hompagebaner";
 
 async function getPosts() {
   const query = `
@@ -95,30 +93,27 @@ export default async function Home() {
 
       <div className="flex gap-10 justify-center ">
         <Smalcard
-          imageSrc1="./images/circleoutline.png"
-          imageSrc2="/app/images/plus.png"
+          imageSrc1="/circleoutline.png"
           text="Forex"
+          imageSrc2="/plus.png"
         />
+        <Smalcard imageSrc1="\energy.png" imageSrc2="/plus.png" text="Energy" />
         <Smalcard
-          imageSrc1=""
-          imageSrc2="@\app\images\plus.png"
-          text="Text between pictures 1 and 2"
+          imageSrc1="\finance.png"
+          imageSrc2="/plus.png"
+          text="Stocks"
         />
+        <Smalcard imageSrc1="\gold.png" imageSrc2="/plus.png" text="Metals" />
         <Smalcard
-          imageSrc1="/images/image1.jpg"
-          imageSrc2="/images/image2.jpg"
-          text="Text between pictures 1 and 2"
+          imageSrc1="\currency-btc.png"
+          imageSrc2="/plus.png"
+          text="Cryptocurrency CFDs"
         />
-        <Smalcard
-          imageSrc1="/images/image1.jpg"
-          imageSrc2="/images/image2.jpg"
-          text="Text between pictures 1 and 2"
-        />
-        <Smalcard
-          imageSrc1="/images/image1.jpg"
-          imageSrc2="/images/image2.jpg"
-          text="Text between pictures 1 and 2"
-        />
+      </div>
+      <div className="flex  justify-center py-20">
+        <button className="bg-green-500 text-white px-6 py-2 rounded-2xl hover:bg-green-600 transition-colors duration-300 w-30">
+          Start trading
+        </button>
       </div>
       <div>
         {posts?.length > 0 &&

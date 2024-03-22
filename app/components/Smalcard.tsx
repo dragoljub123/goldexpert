@@ -1,23 +1,24 @@
 import React from "react";
 import "../globals.css";
 
-interface SmallCardProps {
+interface props {
   imageSrc1: string;
-  imageSrc2: string;
+
   text: string;
+  imageSrc2: string;
 }
 
-const Smalcard: React.FC<SmallCardProps> = ({ imageSrc1, imageSrc2, text }) => {
+const Smalcard: React.FC<props> = (props) => {
   return (
     <div className="card1">
-      <div className="">
-        <img src={imageSrc1} alt="" />
+      <div className="icon1">
+        <img src={props.imageSrc1} alt="like" />
       </div>
       <div className="text1 text-center ">
-        <p>{text}</p>
+        <p>{props.text}</p>
       </div>
-      <div className="">
-        <img src={imageSrc2} alt="" />
+      <div className="icon-small1 ">
+        <img src={props.imageSrc2} alt="like" />
       </div>
     </div>
   );

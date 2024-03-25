@@ -7,7 +7,7 @@ import Frame515 from "@/app/images/Frame515.png";
 import Stars from "@/app/images/Stars.png";
 import Image from "next/image";
 import { Navbar } from "./components/Navbar";
-import { HomepageBanner } from "./components/hompagebaner";
+import BanerabouthRevo from "./components/BanerabouthRevo";
 
 async function getPosts() {
   const query = `
@@ -115,6 +115,7 @@ export default async function Home() {
           Start trading
         </button>
       </div>
+      <BanerabouthRevo />
       <div>
         {posts?.length > 0 &&
           posts?.map((post) => <PostComponent key={post?._id} post={post} />)}

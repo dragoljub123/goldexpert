@@ -3,7 +3,6 @@ import "../globals.css";
 
 interface props {
   imageSrc1: string;
-
   text: string;
   imageSrc2: string;
 }

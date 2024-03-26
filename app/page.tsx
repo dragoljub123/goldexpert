@@ -8,6 +8,8 @@ import Stars from "@/app/images/Stars.png";
 import Image from "next/image";
 import { Navbar } from "./components/Navbar";
 import BanerabouthRevo from "./components/BanerabouthRevo";
+import SmallcardThree from "./components/SmallcardThree";
+import BigCard3 from "./components/BigCard3";
 
 async function getPosts() {
   const query = `
@@ -116,6 +118,84 @@ export default async function Home() {
         </button>
       </div>
       <BanerabouthRevo />
+      <h1 className="text-5xl primarna font-bold text-center">
+        Start in Less Than 5 Minutes
+      </h1>
+      <div className="flex justify-center py-20 gap-10">
+        <SmallcardThree
+          number={1}
+          imageUrl="\join.png"
+          title="Register"
+          description="Register and and activate
+          your account"
+        />
+        <SmallcardThree
+          number={2}
+          imageUrl="\deposit.png"
+          title="Deposit"
+          description="Make a deposit via bank transfer,
+          wire or debit card"
+        />
+        <SmallcardThree
+          number={3}
+          imageUrl="\trade.png"
+          title="Trade"
+          description="Get approved and start trading"
+        />
+      </div>
+      <div className="flex  justify-center py-20">
+        <button className="bg-green-500 text-white px-6 py-2 rounded-2xl hover:bg-green-600 transition-colors duration-300 w-30">
+          Start trading
+        </button>
+      </div>
+      <h1 className="text-5xl primarna font-bold text-center">
+        Account For Every Trader
+      </h1>
+      <p className="text-center py-10">
+        We have accounts for both new and more active traders.<br></br>Check
+        which fits and you're set to go.
+      </p>
+      <div className="flex  justify-center py-20 gap-10">
+        <BigCard3
+          title="Basic"
+          imageSrc="\basic.png"
+          description="For beginners who want to trade forex at fixed spreads with guaranteed stop loss"
+          listItems={[
+            "Leverage up to 1:100",
+            "Spread from 3 pips",
+            " Free account manager session",
+            " Customer support 24/7",
+            "Minimum deposit $250",
+          ]}
+        />
+        <BigCard3
+          title="Advanced"
+          imageSrc="\standard.png"
+          description="For more experienced traders who need a professional advantage"
+          listItems={[
+            "Leverage up to 1:200",
+            "Spread from 2.25 pips",
+            "Senior account manager",
+            "Quarterly portfolio evaluation",
+            "Customer support 24/7",
+            "Minimum deposit $10,000",
+          ]}
+        />
+        <BigCard3
+          title="Diamond"
+          imageSrc="\professional.png"
+          description="For big players who require a more personalized approach"
+          listItems={[
+            "Leverage up to 1:500",
+            "Spread from 0.9 pips",
+            "Senior account manager",
+            "Daily portfolio evaluation",
+            "Customer support 24/7",
+            "Minimum deposit $250,000",
+          ]}
+        />
+      </div>
+
       <div>
         {posts?.length > 0 &&
           posts?.map((post) => <PostComponent key={post?._id} post={post} />)}

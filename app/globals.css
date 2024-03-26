@@ -92,3 +92,63 @@
   border: 2px solid #ccc; /* Border color */
   border-radius: 38px;
 }
+.card3 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.51);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.card-image3 {
+  object-fit: cover;
+}
+
+.card-title3 {
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card-description3 {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.cardb3 {
+  border-radius: 18px;
+  background: rgba(24, 48, 89, 0.86);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(3.5px);
+
+  color: white;
+}
+
+.card-bodyb3 {
+  padding: 2px;
+}
+
+.card-bodyb3 p {
+  margin-bottom: 10px;
+}
+
+.card-bodyb3 ul {
+  list-style-type: disc; /* Change to 'disc' to display as dots */
+  padding: 17px;
+}
+
+.card-bodyb3 li {
+  margin-bottom: 5px;
+}
+
+.card-footerb3 {
+  padding: 0px;
+  text-align: center;
+}

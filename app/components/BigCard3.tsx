@@ -16,14 +16,14 @@ const BigCard3: React.FC<CardProps> = ({
   return (
     <div className="cardb3" style={{ width: "382px", height: "auto" }}>
       <div className="flex justify-between items-center">
-        <h2 className="text-4xl">{title}</h2>
+        <h2 className="text-4xl px-2">{title}</h2>
         <img
           src={imageSrc}
           alt="Card"
           style={{ width: "auto", height: "auto" }}
         />
       </div>
-      <div className="card-bodyb3 ">
+      <div className="card-bodyb3  ">
         <p>{description}</p>
         <ul>
           {listItems.map((item, index) => (

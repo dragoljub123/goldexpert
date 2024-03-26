@@ -79,121 +79,133 @@ export default async function Home() {
           </div>
         </div>
       </div>
-      <div className=" flex flex-col text-center justify-center  py-20 ">
-        <h1 className="text-5xl primarna font-bold mb-4">
-          Trade
-          <span className="narandzasta">
-            100+ Instruments <br></br>
-          </span>
-          with an Award-Winning Broker
-        </h1>
-        <p className="text-black mb-4">
-          Diversify your investment portfolio by trading CFDs <br></br>
-          on more than just Forex.
-        </p>
+      <div className="svetlapozadina">
+        <div className=" flex flex-col text-center justify-center  py-20 ">
+          <h1 className="text-5xl primarna font-bold mb-4">
+            Trade
+            <span className="narandzasta">
+              100+ Instruments <br></br>
+            </span>
+            with an Award-Winning Broker
+          </h1>
+          <p className="text-black mb-4">
+            Diversify your investment portfolio by trading CFDs <br></br>
+            on more than just Forex.
+          </p>
+        </div>
+
+        <div className="flex gap-10 justify-center ">
+          <Smalcard
+            imageSrc1="/circleoutline.png"
+            text="Forex"
+            imageSrc2="/plus.png"
+          />
+          <Smalcard
+            imageSrc1="\energy.png"
+            imageSrc2="/plus.png"
+            text="Energy"
+          />
+          <Smalcard
+            imageSrc1="\finance.png"
+            imageSrc2="/plus.png"
+            text="Stocks"
+          />
+          <Smalcard imageSrc1="\gold.png" imageSrc2="/plus.png" text="Metals" />
+          <Smalcard
+            imageSrc1="\currency-btc.png"
+            imageSrc2="/plus.png"
+            text="Cryptocurrency CFDs"
+          />
+        </div>
+        <div className="flex  justify-center py-20">
+          <button className="bg-green-500 text-white px-6 py-2 rounded-2xl hover:bg-green-600 transition-colors duration-300 w-30">
+            Start trading
+          </button>
+        </div>
+        <BanerabouthRevo />
       </div>
 
-      <div className="flex gap-10 justify-center ">
-        <Smalcard
-          imageSrc1="/circleoutline.png"
-          text="Forex"
-          imageSrc2="/plus.png"
-        />
-        <Smalcard imageSrc1="\energy.png" imageSrc2="/plus.png" text="Energy" />
-        <Smalcard
-          imageSrc1="\finance.png"
-          imageSrc2="/plus.png"
-          text="Stocks"
-        />
-        <Smalcard imageSrc1="\gold.png" imageSrc2="/plus.png" text="Metals" />
-        <Smalcard
-          imageSrc1="\currency-btc.png"
-          imageSrc2="/plus.png"
-          text="Cryptocurrency CFDs"
-        />
-      </div>
-      <div className="flex  justify-center py-20">
-        <button className="bg-green-500 text-white px-6 py-2 rounded-2xl hover:bg-green-600 transition-colors duration-300 w-30">
-          Start trading
-        </button>
-      </div>
-      <BanerabouthRevo />
-      <h1 className="text-5xl primarna font-bold text-center">
-        Start in Less Than 5 Minutes
-      </h1>
-      <div className="flex justify-center py-20 gap-10">
-        <SmallcardThree
-          number={1}
-          imageUrl="\join.png"
-          title="Register"
-          description="Register and and activate
+      <div className="pozadinavektori">
+        <h1 className="text-5xl primarna font-bold text-center">
+          Start in Less Than 5 Minutes
+        </h1>
+        <div className="flex justify-center py-20 gap-10">
+          <SmallcardThree
+            number={1}
+            imageUrl="\join.png"
+            title="Register"
+            description="Register and and activate
           your account"
-        />
-        <SmallcardThree
-          number={2}
-          imageUrl="\deposit.png"
-          title="Deposit"
-          description="Make a deposit via bank transfer,
+          />
+          <SmallcardThree
+            number={2}
+            imageUrl="\deposit.png"
+            title="Deposit"
+            description="Make a deposit via bank transfer,
           wire or debit card"
-        />
-        <SmallcardThree
-          number={3}
-          imageUrl="\trade.png"
-          title="Trade"
-          description="Get approved and start trading"
-        />
-      </div>
-      <div className="flex  justify-center py-20">
-        <button className="bg-green-500 text-white px-6 py-2 rounded-2xl hover:bg-green-600 transition-colors duration-300 w-30">
-          Start trading
-        </button>
-      </div>
-      <h1 className="text-5xl primarna font-bold text-center">
-        Account For Every Trader
-      </h1>
-      <p className="text-center py-10">
-        We have accounts for both new and more active traders.<br></br>Check
-        which fits and you're set to go.
-      </p>
-      <div className="flex  justify-center py-20 gap-10">
-        <BigCard3
-          title="Basic"
-          imageSrc="\basic.png"
-          description="For beginners who want to trade forex at fixed spreads with guaranteed stop loss"
-          listItems={[
-            "Leverage up to 1:100",
-            "Spread from 3 pips",
-            " Free account manager session",
-            " Customer support 24/7",
-            "Minimum deposit $250",
-          ]}
-        />
-        <BigCard3
-          title="Advanced"
-          imageSrc="\standard.png"
-          description="For more experienced traders who need a professional advantage"
-          listItems={[
-            "Leverage up to 1:200",
-            "Spread from 2.25 pips",
-            "Senior account manager",
-            "Quarterly portfolio evaluation",
-            "Customer support 24/7",
-            "Minimum deposit $10,000",
-          ]}
-        />
-        <BigCard3
-          title="Diamond"
-          imageSrc="\professional.png"
-          description="For big players who require a more personalized approach"
-          listItems={[
-            "Leverage up to 1:500",
-            "Spread from 0.9 pips",
-            "Senior account manager",
-            "Daily portfolio evaluation",
-            "Customer support 24/7",
-            "Minimum deposit $250,000",
-          ]}
-        />
+          />
+          <SmallcardThree
+            number={3}
+            imageUrl="\trade.png"
+            title="Trade"
+            description="Get approved and start trading"
+          />
+        </div>
+        <div className="flex  justify-center py-20">
+          <button className="bg-green-500 text-white px-6 py-2 rounded-2xl hover:bg-green-600 transition-colors duration-300 w-30">
+            Start trading
+          </button>
+        </div>
+        <h1 className="text-5xl primarna font-bold text-center">
+          Account For Every Trader
+        </h1>
+        <p className="text-center py-10">
+          We have accounts for both new and more active traders.<br></br>Check
+          which fits and you're set to go.
+        </p>
+        <div className="flex  justify-center py-20 gap-10">
+          <BigCard3
+            title="Basic"
+            imageSrc="\basic.png"
+            description="For beginners who want to trade forex at fixed spreads with guaranteed stop loss"
+            listItems={[
+              "Leverage up to 1:100",
+              "Spread from 3 pips",
+              " Free account manager session",
+              " Customer support 24/7",
+              "Minimum deposit $250",
+            ]}
+          />
+          <div className=" scale-110">
+            {" "}
+            <BigCard3
+              title="Advanced"
+              imageSrc="\standard.png"
+              description="For more experienced traders who need a professional advantage"
+              listItems={[
+                "Leverage up to 1:200",
+                "Spread from 2.25 pips",
+                "Senior account manager",
+                "Quarterly portfolio evaluation",
+                "Customer support 24/7",
+                "Minimum deposit $10,000",
+              ]}
+            />
+          </div>
+          <BigCard3
+            title="Diamond"
+            imageSrc="\professional.png"
+            description="For big players who require a more personalized approach"
+            listItems={[
+              "Leverage up to 1:500",
+              "Spread from 0.9 pips",
+              "Senior account manager",
+              "Daily portfolio evaluation",
+              "Customer support 24/7",
+              "Minimum deposit $250,000",
+            ]}
+          />
+        </div>
       </div>
 
       <div>

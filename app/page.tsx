@@ -10,6 +10,7 @@ import { Navbar } from "./components/Navbar";
 import BanerabouthRevo from "./components/BanerabouthRevo";
 import SmallcardThree from "./components/SmallcardThree";
 import BigCard3 from "./components/BigCard3";
+import { FooterHome } from "./components/FooterHome";
 
 async function getPosts() {
   const query = `
@@ -51,7 +52,7 @@ export default async function Home() {
                 Trade forex with unbeatable spreads, negative balance<br></br>{" "}
                 protection, and award winning 24/7 support
               </p>
-              <button className="bg-green-500 text-white px-4 py-2 rounded-2xl hover:bg-green-600 transition-colors duration-300 w-3/12">
+              <button className="bg-green-500 text-white px-4 py-2 rounded-3xl hover:bg-green-600 transition-colors duration-300 w-3/12">
                 Start trading
               </button>
             </div>
@@ -118,7 +119,7 @@ export default async function Home() {
           />
         </div>
         <div className="flex  justify-center py-20">
-          <button className="bg-green-500 text-white px-6 py-2 rounded-2xl hover:bg-green-600 transition-colors duration-300 w-30">
+          <button className="bg-green-500 text-white px-6 py-2 rounded-3xl hover:bg-green-600 transition-colors duration-300 w-30">
             Start trading
           </button>
         </div>
@@ -152,7 +153,7 @@ export default async function Home() {
           />
         </div>
         <div className="flex  justify-center py-20">
-          <button className="bg-green-500 text-white px-6 py-2 rounded-2xl hover:bg-green-600 transition-colors duration-300 w-30">
+          <button className="bg-green-500 text-white px-6 py-2 rounded-3xl hover:bg-green-600 transition-colors duration-300 w-30">
             Start trading
           </button>
         </div>
@@ -207,8 +208,20 @@ export default async function Home() {
           />
         </div>
       </div>
+      <div className="flex  justify-center py-10">
+        <button className="text-[#343A40] border border-gray-800 font-bold py-2 px-4 rounded-3xl">
+          View all accounts
+        </button>
+      </div>
+      <p className="py-10 font-['Manrope'] not-italic font-bold  text-center text-[#343A40]">
+        Risk warning: CFDs are complex instruments and come with a high risk of
+        losing money rapidly due to leverage. 68% of retail investor accounts
+        lose money when trading CFDs with this provider.<br></br>You should
+        consider whether you understand how CFDs work and whether you can afford
+        to take the high risk of losing your money.
+      </p>
 
-      <div>
+      <div className=" hidden">
         {posts?.length > 0 &&
           posts?.map((post) => <PostComponent key={post?._id} post={post} />)}
       </div>

@@ -52,7 +52,7 @@ export default async function Home() {
                 Trade forex with unbeatable spreads, negative balance<br></br>{" "}
                 protection, and award winning 24/7 support
               </p>
-              <button className="bg-green-500 text-white px-4 py-2 rounded-3xl hover:bg-green-600 transition-colors duration-300 w-3/12">
+              <button className="bg-green-500 text-white px-4 py-2 rounded-3xl hover:bg-green-600 transition-colors duration-300 w-3/12 sm:w-1/3 ">
                 Start trading
               </button>
             </div>
@@ -95,7 +95,7 @@ export default async function Home() {
           </p>
         </div>
 
-        <div className="flex gap-10 justify-center ">
+        <div className="flex justify-center flex-wrap  gap-10 md:gap-4  ">
           <Smalcard
             imageSrc1="/circleoutline.png"
             text="Forex"
@@ -126,11 +126,11 @@ export default async function Home() {
         <BanerabouthRevo />
       </div>
 
-      <div className="pozadinavektori">
-        <h1 className="text-5xl primarna font-bold text-center">
+      <div className="pozadinavektori ">
+        <h1 className="text-5xl primarna font-bold text-center ">
           Start in Less Than 5 Minutes
         </h1>
-        <div className="flex justify-center py-20 gap-10">
+        <div className=" justify-center py-20 gap-10 flex flex-col sm:flex-row items-center">
           <SmallcardThree
             number={1}
             imageUrl="\join.png"
@@ -164,7 +164,7 @@ export default async function Home() {
           We have accounts for both new and more active traders.<br></br>Check
           which fits and you're set to go.
         </p>
-        <div className="flex  justify-center py-20 gap-10">
+        <div className="justify-center flex flex-col sm:flex-row items-center py-20 gap-10">
           <BigCard3
             title="Basic"
             imageSrc="\basic.png"
@@ -177,8 +177,11 @@ export default async function Home() {
               "Minimum deposit $250",
             ]}
           />
-          <div className=" scale-110">
-            {" "}
+          <div className=" scale-110 flex flex-col items-center">
+            <span className="rec flex flex-wrap w-32 justify-center">
+              Recommended
+            </span>
+
             <BigCard3
               title="Advanced"
               imageSrc="\standard.png"
@@ -221,7 +224,7 @@ export default async function Home() {
         to take the high risk of losing your money.
       </p>
 
-      <div className=" hidden">
+      <div className=" ">
         {posts?.length > 0 &&
           posts?.map((post) => <PostComponent key={post?._id} post={post} />)}
       </div>

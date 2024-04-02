@@ -18,7 +18,7 @@
 
   position: absolute;
   top: 56px;
-  left: 67px;
+  left: 68px;
 }
 
 .text1 {
@@ -28,7 +28,6 @@
   color: #333333;
   position: absolute;
   top: 148px;
-  left: 24px;
 }
 
 .icon-small1 {
@@ -137,6 +136,14 @@
   backdrop-filter: blur(3.5px);
 
   color: white;
+}
+
+.rec {
+  /* Accent */
+  background: #f77000;
+  color: white;
+  border-bottom: 1px solid #f77000;
+  border-radius: 10px;
 }
 
 .card-bodyb3 {

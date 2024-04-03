@@ -45,6 +45,15 @@
   border-bottom-left-radius: 70px;
   border-bottom-right-radius: 90px;
 }
+
+.pozadina2 {
+  background: #183059;
+  background-image: url("images/acc.png");
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 90px;
+  background-size: cover;
+}
+
 /*.pozadinavektori {
   background-image: url("images/pozadinasavektorima.png");
   background-size: cover;

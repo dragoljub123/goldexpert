@@ -144,6 +144,8 @@
   color: white;
   border-bottom: 1px solid #f77000;
   border-radius: 10px;
+  margin-bottom: -15px;
+  z-index: 1;
 }
 
 .card-bodyb3 {

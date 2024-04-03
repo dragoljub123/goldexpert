@@ -56,7 +56,7 @@ export default async function Home() {
                 Start trading
               </button>
             </div>
-            <div className="hidden md:flex md:w-1/2">
+            <div className=" hidden md:flex md:w-1/2">
               <Image
                 src={image23}
                 alt="slika"
@@ -123,11 +123,13 @@ export default async function Home() {
             Start trading
           </button>
         </div>
-        <BanerabouthRevo />
+        <div className="flex lg:justify-center ">
+          <BanerabouthRevo />
+        </div>
       </div>
 
       <div className="pozadinavektori ">
-        <h1 className="text-5xl primarna font-bold text-center ">
+        <h1 className="text-5xl primarna font-bold text-center py-12 ">
           Start in Less Than 5 Minutes
         </h1>
         <div className=" justify-center py-20 gap-10 flex flex-col sm:flex-row items-center">
@@ -177,7 +179,7 @@ export default async function Home() {
               "Minimum deposit $250",
             ]}
           />
-          <div className=" scale-110 flex flex-col items-center">
+          <div className=" lg:scale-110 flex flex-col items-center">
             <span className="rec flex flex-wrap w-32 justify-center">
               Recommended
             </span>

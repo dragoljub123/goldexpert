@@ -22,8 +22,8 @@ import { link } from "fs";
 
 export const FooterHome: React.FC = () => {
   return (
-    <div>
-      <div className="flex justify-evenly py-10">
+    <div className=" sd: text-[12px]">
+      <div className="flex justify-evenly py-6">
         <Image
           src={paypalImage}
           alt="PayPal"
@@ -83,7 +83,7 @@ export const FooterHome: React.FC = () => {
       </div>
 
       <footer className="flex justify-between text-[#717171] border-t-[1px]">
-        <div className="footer-left font-[Manrope] text-[18px] py-10  text-left">
+        <div className="footer-left font-[Manrope] lg:text-[16px] py-15  text-left">
           <Link href={"/"}>
             <Image src={CRlogo2} alt="slika" className=" object-contain" />
           </Link>
@@ -105,9 +105,9 @@ export const FooterHome: React.FC = () => {
           <p>All rights reserved</p>
         </div>
 
-        <div className="footer-right flex flex-row w-[Hug (1,047px)px] h-[Hug (152px)px] top-[222px] left-[353px] gap-[41px] opacity-[0px] py-10">
+        <div className="footer-right flex flex-row w-[Hug (1,047px)px] h-[Hug (152px)px] top-[222px] left-[353px]  lg:gap-40 opacity-[0px] py-10 px-5 lg:text-[16px] ">
           <div className="footer-column ">
-            <h4 className="font-[Manrope] text-[18px] font-bold leading-[24px] text-left">
+            <h4 className="font-[Manrope] lg:text-[16px] font-bold leading-[24px] text-left">
               TRADING
             </h4>
             <ul>
@@ -129,7 +129,7 @@ export const FooterHome: React.FC = () => {
             </ul>
           </div>
           <div className="footer-column ">
-            <h4 className="font-[Manrope] text-[18px] font-bold leading-[24px] text-left">
+            <h4 className="font-[Manrope] lg:text-[16px] font-bold leading-[24px] text-left">
               TOOLS
             </h4>
             <ul>
@@ -148,7 +148,7 @@ export const FooterHome: React.FC = () => {
             </ul>
           </div>
           <div className="footer-column">
-            <h4 className="font-[Manrope] text-[18px] font-bold leading-[24px] text-left">
+            <h4 className="font-[Manrope] lg:text-[16px] font-bold leading-[24px] text-left">
               PARTNERSHIP
             </h4>
             <ul>
@@ -161,7 +161,7 @@ export const FooterHome: React.FC = () => {
             </ul>
           </div>
           <div className="footer-column">
-            <h4 className="font-[Manrope] text-[18px] font-bold leading-[24px] text-left">
+            <h4 className="font-[Manrope] lg:text-[16px] font-bold leading-[24px] text-left">
               HELP
             </h4>
             <ul>

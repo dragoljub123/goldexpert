@@ -10,7 +10,7 @@ interface props {
 const Smalcard: React.FC<props> = (props) => {
   return (
     <div className="card1 ">
-      <div className="icon1 ">
+      <div className="icon1">
         <img src={props.imageSrc1} alt="like" />
       </div>
       <div className="text1 text-center ">

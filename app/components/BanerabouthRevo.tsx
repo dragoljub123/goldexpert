@@ -1,11 +1,6 @@
 import React from "react";
 import "../globals.css";
 
-interface Props {
-  title: string;
-  description: string;
-}
-
 const BanerabouthRevo = () => {
   return (
     <div className="">

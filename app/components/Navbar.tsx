@@ -1,3 +1,4 @@
+"use client";
 import { title } from "process";
 import React from "react";
 import { Logo } from "./Logo";
@@ -6,6 +7,8 @@ import { FiMenu } from "react-icons/fi";
 import "../globals.css";
 import Image from "next/image";
 import Ellipse from "@/app/images/Ellipse.png";
+import { useState } from "react";
+import { client } from "@/sanity/lib/client";
 
 export const Navbar = () => {
   const navigation = [
@@ -15,28 +18,49 @@ export const Navbar = () => {
     { title: "Help", href: "/studio" },
     { title: "About ", href: "/studio" },
   ];
+  const [showLinks, setShowLinks] = useState(false);
+
+  const toggleLinks = () => {
+    setShowLinks(!showLinks);
+  };
   return (
-    <div className="w-full  h-16   top-0  z-50 ">
-      <div className="max-w-screen-xl mx-auto flex items-center justify-between  lg:px-0 h-full">
+    <div className="w-full  h-16   z-50 ">
+      <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 lg:px-0 h-full">
         <Logo title="Capitalrevo" className="text-black " />
-        <div className="hidden md:inline-flex items-center gap-10 text-white hover:text-white duration-200">
+        <div className="hidden lg:inline-flex items-center gap-10 text-white">
           {navigation.map((item) => (
             <Link key={item?.title} href={item?.href} className="text-sm   ">
               {item?.title}
-              <span className="" />
             </Link>
           ))}
-          <button className=" text-white granica rounded-2xl  w-20">
-            Log in
-          </button>
-          <button className="bg-green-500 text-white  rounded-2xl  w-20">
+
+          <div className=" text-center">
+            <button className=" text-white granica mx-auto rounded-2xl  w-20">
+              Log in
+            </button>
+          </div>
+          <button className="bg-green-500 text-white  rounded-2xl mx-auto  w-20">
             Sing up
           </button>
-          <Image src={Ellipse} alt="slika" className=" object-contain" />
+          <Image src={Ellipse} alt="slika" className=" mx-auto w-6" />
         </div>
 
-        <div className="md:hidden">
-          <FiMenu className="text-2xl" />
+        <div className="md:hidden ">
+          <button
+            onClick={toggleLinks}
+            className="text-white text-2xl focus:outline-none"
+          >
+            <FiMenu />
+          </button>
+          {showLinks && (
+            <div className="flex flex-col absolute top-16 right-4 bg-transparent text-white p-4 rounded shadow-lg ">
+              {navigation.map((item) => (
+                <Link key={item?.title} href={item?.href}>
+                  {item?.title}
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>

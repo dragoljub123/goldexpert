@@ -15,8 +15,8 @@ const PaketCard = () => {
           Open account
         </button>
       </div>
-      <div className="right mx-auto">
-        <div className=" ">
+      <div className="right mx-auto ">
+        <div className=" flex justify-evenly p-20">
           <ul>
             <li>Minimum deposit</li>
             <li>Spread</li>

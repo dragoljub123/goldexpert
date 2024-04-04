@@ -42,16 +42,18 @@
 .pozadina {
   background: #183059;
   background-image: url("images/Frame1.png");
-  border-bottom-left-radius: 70px;
+  background-size: cover;
+  border-bottom-left-radius: 90px;
   border-bottom-right-radius: 90px;
 }
 
 .pozadina2 {
-  background: #183059;
   background-image: url("images/acc.png");
-  border-bottom-left-radius: 70px;
+  border-bottom-left-radius: 90px;
   border-bottom-right-radius: 90px;
   background-size: cover;
+  width: 100%;
+  height: 700px;
 }
 
 /*.pozadinavektori {
@@ -242,9 +244,6 @@ ul {
   list-style: none;
 }
 
-button {
-  margin-top: 20px;
-}
 .mininaslov {
   font-family: "Century Gothic";
   font-style: normal;

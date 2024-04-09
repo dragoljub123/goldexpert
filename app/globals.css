@@ -58,8 +58,10 @@
 
 .pozadinavektori {
   background-image: url("images/pozadinasavektorima.png");
+
+  margin-top: 0;
   background-size: cover;
-  margin-top: -20px;
+  background-repeat: no-repeat;
 }
 .svetlapozadina {
   background-image: url("images/pozadinabezvektora.png");

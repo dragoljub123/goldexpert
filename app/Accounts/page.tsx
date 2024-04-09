@@ -9,10 +9,10 @@ export default function About() {
         <Navbar />
         <div className=" mx-auto flex items-center justify-center ">
           <div className="flex flex-col w-full md:w-1/2 bg-transparent rounded-lg lg:p-52 sm: p-16  ">
-            <h1 className="text-5xl text-white font-bold py-10">
+            <h1 className="text-5xl text-white font-bold  ">
               Trading Accounts <br></br>
             </h1>
-            <p className="text-white ">
+            <p className="text-white py-10 ">
               Capital Revo offers a wide range of account types,all <br></br>{" "}
               designed to suit a diverse range of trading styles.
             </p>

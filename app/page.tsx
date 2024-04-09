@@ -41,7 +41,7 @@ export default async function Home() {
         <div className="pozadina  ">
           <Navbar />
           <div className=" mx-auto flex items-center justify-center ">
-            <div className="flex flex-col w-full md:w-1/2 bg-transparent rounded-lg lg:p-52 sm: p-16">
+            <div className="max-w-screen-xl mx-auto flex flex-col  justify-between px-4 lg:px-0 h-full">
               <h1 className="text-5xl text-white font-bold mb-4">
                 Trade forex and CFDs <br></br> with the{" "}
                 <span className="narandzasta">
@@ -80,7 +80,7 @@ export default async function Home() {
           </div>
         </div>
       </div>
-      <div className=" ">
+      <div className=" pozadinavektori">
         <div className=" flex flex-col text-center justify-center  py-20 ">
           <h1 className="text-5xl primarna font-bold mb-4">
             Trade

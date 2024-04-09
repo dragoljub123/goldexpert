@@ -40,8 +40,8 @@ export default async function Home() {
       <div className="narandzasta2 ">
         <div className="pozadina  ">
           <Navbar />
-          <div className=" mx-auto flex items-center justify-center h-screen">
-            <div className="flex flex-col w-full md:w-1/2 bg-transparent rounded-lg p-20 ">
+          <div className=" mx-auto flex items-center justify-center ">
+            <div className="flex flex-col w-full md:w-1/2 bg-transparent rounded-lg lg:p-52 sm: p-16">
               <h1 className="text-5xl text-white font-bold mb-4">
                 Trade forex and CFDs <br></br> with the{" "}
                 <span className="narandzasta">
@@ -80,7 +80,7 @@ export default async function Home() {
           </div>
         </div>
       </div>
-      <div className="svetlapozadina">
+      <div className=" ">
         <div className=" flex flex-col text-center justify-center  py-20 ">
           <h1 className="text-5xl primarna font-bold mb-4">
             Trade
@@ -118,6 +118,7 @@ export default async function Home() {
             text="Cryptocurrency CFDs"
           />
         </div>
+
         <div className="flex  justify-center py-20">
           <button className="bg-green-500 text-white px-6 py-2 rounded-3xl hover:bg-green-600 transition-colors duration-300 w-30">
             Start trading
@@ -126,9 +127,7 @@ export default async function Home() {
         <div className="flex lg:justify-center ">
           <BanerabouthRevo />
         </div>
-      </div>
 
-      <div className="pozadinavektori ">
         <h1 className="text-5xl primarna font-bold text-center py-12 ">
           Start in Less Than 5 Minutes
         </h1>
@@ -226,7 +225,7 @@ export default async function Home() {
         to take the high risk of losing your money.
       </p>
 
-      <div className=" ">
+      <div className="hidden ">
         {posts?.length > 0 &&
           posts?.map((post) => <PostComponent key={post?._id} post={post} />)}
       </div>

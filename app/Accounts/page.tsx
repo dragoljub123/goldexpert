@@ -9,8 +9,8 @@ export default function About() {
         <Navbar />
         <div className=" mx-auto flex items-center justify-center ">
           <div className="flex flex-col w-full md:w-1/2 bg-transparent rounded-lg lg:p-52 sm: p-16  ">
-            <h1 className="text-5xl text-white font-bold ">
-              Trading Accounts <br></br> with the{" "}
+            <h1 className="text-5xl text-white font-bold py-10">
+              Trading Accounts <br></br>
             </h1>
             <p className="text-white ">
               Capital Revo offers a wide range of account types,all <br></br>{" "}
@@ -37,7 +37,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className="flex flex-col  items-center gap-20 ">
+      <div className="flex flex-col  lg:items-center gap-20 ">
         <PaketCard />
         <PaketCard />
         <PaketCard />

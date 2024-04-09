@@ -3,8 +3,8 @@ import "../globals.css";
 
 const PaketCard = () => {
   return (
-    <div className="paket-card mx-auto">
-      <div className="left mx-auto">
+    <div className="paket-card ">
+      <div className="left ">
         <p>Account type</p>
         <p className="mininaslov">Basic</p>
         <p>
@@ -15,8 +15,8 @@ const PaketCard = () => {
           Open account
         </button>
       </div>
-      <div className="right mx-auto ">
-        <div className=" flex justify-evenly p-20">
+      <div className="right py-24 ">
+        <div className=" flex justify-evenly">
           <ul>
             <li>Minimum deposit</li>
             <li>Spread</li>

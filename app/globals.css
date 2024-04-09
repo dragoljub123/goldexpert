@@ -49,21 +49,22 @@
 
 .pozadina2 {
   background-image: url("images/acc.png");
-  border-bottom-left-radius: 90px;
-  border-bottom-right-radius: 90px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
   background-size: cover;
   width: 100%;
   height: 700px;
 }
 
-/*.pozadinavektori {
+.pozadinavektori {
   background-image: url("images/pozadinasavektorima.png");
   background-size: cover;
+  margin-top: -20px;
 }
 .svetlapozadina {
   background-image: url("images/pozadinabezvektora.png");
   background-size: cover;
-}*/
+}
 
 .granica {
   border: 1px solid white;
@@ -199,8 +200,8 @@
   bottom: 32px;
 }
 .paket-card {
-  width: 1020px;
-  height: 343px;
+  max-width: 1020px;
+  max-height: 343px;
   background: linear-gradient(
     266.27deg,
     #ffffff -0.12%,
@@ -227,7 +228,7 @@
 
 .left {
   flex: 1;
-  padding: 20px;
+  padding: 3rem;
 }
 
 .right {

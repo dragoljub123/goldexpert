@@ -26,7 +26,7 @@ const Suportkartice: React.FC<CardProps> = ({
         />
         <div className="flex text-white">
           <h2 className="text-4xl px-2 zlatntext">{title2}</h2>
-          <h5 className="text-4xl px-2">{title}</h5>
+          <h5 className="text-2xl px-3 font-bold">{title}</h5>
         </div>
       </div>
       <div className="card-bodyb3 text-white ">

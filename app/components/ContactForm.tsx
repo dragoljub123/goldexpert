@@ -48,7 +48,7 @@ const ContactForm: React.FC = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-lg mx-auto p-4 space-y-4 bg-white shadow-md rounded-lg"
+      className="mx-auto p-4 space-y-4 bg-white shadow-md rounded-lg"
     >
       <div className="flex flex-col space-y-4">
         <div className="flex flex-col sm:flex-row sm:space-x-4">

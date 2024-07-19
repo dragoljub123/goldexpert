@@ -10,7 +10,7 @@ export default function AboutUS() {
     <div>
       <div className="pozadinaboja2  ">
         <Navbar />
-        <div className="my-40 ">
+        <div className="my-20 ">
           <div className=" mx-auto flex items-center justify-center ">
             <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full mb-20">
               <h1 className="sm:text-5xl  text-white font-bold mb-4  ">

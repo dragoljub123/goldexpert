@@ -22,23 +22,30 @@ export default function ContactUs() {
         </div>
       </div>
 
-      <div className=" bojakarticeUS flex ">
-        <div className=" ">
+      <div
+        className=" bojakarticeUS flex mx-auto p-4 space-y-4 bg-white shadow-md rounded-lg
+       "
+      >
+        <div className=" flex flex-col ">
           <ContactForm />
         </div>
-        <div className="w-4/5 mx-auto">
-          <Suportkartice
-            title2=""
-            title=" 000 111 222 333"
-            imageSrc="\phonee.png"
-            description="Call us directly if you need any urgent help. Our agents will help you."
-          />
-          <Suportkartice
-            title2=""
-            title=" support@goldexpert.ai"
-            imageSrc="\Message.png"
-            description="Email us directly if you need any help. Our agents will help you."
-          />
+        <div className="flex flex-col ">
+          <div className="w-4/5">
+            <Suportkartice
+              title2=""
+              title="000 111 222 333"
+              imageSrc="\phonee.png"
+              description="Call us directly if you need any urgent help. Our agents will help you."
+            />
+          </div>
+          <div className="w-4/5">
+            <Suportkartice
+              title2=""
+              title="support@goldexpert.ai"
+              imageSrc="\Message.png"
+              description="Email us directly if you need any help. Our agents will help you."
+            />
+          </div>
         </div>
       </div>
     </div>

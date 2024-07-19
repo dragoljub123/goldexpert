@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import crlogo from "../images/crlogo.png";
+import glogo from "../images/gold expert.png";
 Image;
 interface Props {
   title?: string;
@@ -11,7 +11,7 @@ interface Props {
 export const Logo = ({ title, className }: Props) => {
   return (
     <Link href={"/"}>
-      <Image src={crlogo} alt="slika" className=" object-contain" />
+      <Image src={glogo} alt="slika" className=" object-contain" />
     </Link>
   );
 };

@@ -2,38 +2,36 @@ import React from "react";
 
 interface CardProps {
   title: string;
+  title2: string;
   imageSrc: string;
   description: string;
-  listItems: string[];
 }
 
 const BigCard3: React.FC<CardProps> = ({
   title,
+  title2,
   imageSrc,
   description,
-  listItems,
 }) => {
   return (
-    <div className="cardb3" style={{ width: "382px", height: "auto" }}>
-      <div className="flex justify-between items-center">
-        <h2 className="text-4xl px-2">{title}</h2>
+    <div className="cardb3" style={{ width: "568px", height: "542px" }}>
+      <div className="flex flex-col  justify-between items-center my-20">
         <img
           src={imageSrc}
           alt="Card"
           style={{ width: "auto", height: "auto" }}
         />
+        <div className="flex mt-8">
+          <h2 className="text-4xl px-2 zlatntext">{title2}</h2>
+          <h2 className="text-4xl px-2">{title}</h2>
+        </div>
       </div>
       <div className="card-bodyb3  ">
-        <p>{description}</p>
-        <ul>
-          {listItems.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
+        <p className=" text-center">{description}</p>
       </div>
       <div className="card-footerb3 ">
-        <button className="bg-green-500 text-white px-12 py-1 rounded-3xl hover:bg-green-600 transition-colors duration-300 w-25">
-          Start trading
+        <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25">
+          Get Started
         </button>
       </div>
     </div>

@@ -3,7 +3,8 @@ import Image from "next/image";
 import "../globals.css";
 import ContactForm from "../components/ContactForm";
 import React from "react";
-import Suportkartice from "../components/Suportkartice";
+import Suportkartice from "../components/Suportkartica2";
+import Suportkartica2 from "../components/Suportkartica2";
 
 export default function ContactUs() {
   return (
@@ -22,24 +23,21 @@ export default function ContactUs() {
         </div>
       </div>
 
-      <div
-        className=" bojakarticeUS flex mx-auto p-4 space-y-4 bg-white shadow-md rounded-lg
-       "
-      >
-        <div className=" flex flex-col ">
+      <div className=" bg-lightblue flex justify-center items-center mx-auto p-4 space-y-4 shadow-md rounded-lg">
+        <div className="flex flex-col">
           <ContactForm />
         </div>
-        <div className="flex flex-col ">
-          <div className="w-4/5">
-            <Suportkartice
+        <div className="flex flex-col">
+          <div className="">
+            <Suportkartica2
               title2=""
               title="000 111 222 333"
               imageSrc="\phonee.png"
               description="Call us directly if you need any urgent help. Our agents will help you."
             />
           </div>
-          <div className="w-4/5">
-            <Suportkartice
+          <div className="">
+            <Suportkartica2
               title2=""
               title="support@goldexpert.ai"
               imageSrc="\Message.png"

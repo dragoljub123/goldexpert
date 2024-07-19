@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         customBlue: '#3852AC',
         zlatna: '#c69638',
+        lightblue: '#121B34',
       },
     },
   },

@@ -65,7 +65,7 @@ export default function AboutUS() {
         <div className=" lg:flex justify-center  mb-20">
           <div className="p-4 border-[1px] ">
             <SmallcardThree
-              imageurlnumber=""
+              imageurlnumber="\one.png"
               imageUrl="\Financial Growth.png"
               title=" Advanced Technology"
               description="Our trading robots are powered by state-of-the-art algorithms and technology, providing you with a   edge in the market."
@@ -74,7 +74,7 @@ export default function AboutUS() {
           </div>
           <div className=" p-4 border-[1px]">
             <SmallcardThree
-              imageurlnumber=""
+              imageurlnumber="\two.png"
               imageUrl="\Safety Box.png"
               title=" Proven Strategies"
               description="We combine years of trading experience with innovative technology to deliver reliable and profitable trading strategies."
@@ -83,7 +83,7 @@ export default function AboutUS() {
           </div>
           <div className=" p-4 border-[1px]">
             <SmallcardThree
-              imageurlnumber=""
+              imageurlnumber="\two.png"
               imageUrl="\Risk.png"
               title=" Secure and Reliable"
               description="Your security is our top priority. We adhere to strict regulatory standards and employ robust security measures to protect your investments."
@@ -92,7 +92,7 @@ export default function AboutUS() {
           </div>
           <div className=" p-4 border-[1px]">
             <SmallcardThree
-              imageurlnumber=""
+              imageurlnumber="\two.png"
               imageUrl="\Risk.png"
               title=" Comprehensive Support"
               description="From setup to troubleshooting, our support team is here to assist you at every step of your trading journey."

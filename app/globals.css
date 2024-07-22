@@ -48,6 +48,11 @@
   height: 685px;
 }
 
+@media (min-width: 400px) {
+  .pozadina {
+  }
+}
+
 .pozadina2 {
   background-image: url("images/moneyrise.png");
   height: 521px;

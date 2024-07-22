@@ -33,8 +33,8 @@ export default function ContactUs() {
           <div className="flex flex-col w-full lg:w-1/2 p-4">
             <ContactForm />
           </div>
-          <div className="flex flex-col w-full lg:w-1/2 p-4 space-y-4">
-            <div className="p-4">
+          <div className="flex flex-col w-full lg:w-1/2  space-y-4">
+            <div className="">
               <Suportkartica2
                 title2=""
                 title="000 111 222 333"
@@ -42,7 +42,7 @@ export default function ContactUs() {
                 description="Call us directly if you need any urgent help. Our agents will help you."
               />
             </div>
-            <div className="p-4">
+            <div className="">
               <Suportkartica2
                 title2=""
                 title="support@goldexpert.ai"

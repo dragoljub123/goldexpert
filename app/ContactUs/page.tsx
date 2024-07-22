@@ -33,7 +33,7 @@ export default function ContactUs() {
           <div className="flex flex-col w-full lg:w-1/2 p-4">
             <ContactForm />
           </div>
-          <div className="flex flex-col w-full lg:w-1/2  space-y-4">
+          <div className="flex flex-col   justify-evenlyn lg:w-1/2  space-y-4">
             <div className="">
               <Suportkartica2
                 title2=""

@@ -25,17 +25,17 @@ export default function AboutUS() {
 
         <div className="kontejner lg:flex justify-center items-center ">
           <div className=" text-white rounded-md">
-            <h1 className="text-xl font-bold mb-6 mt-6 text-left lg:text-3xl ">
-              We Are <span className=" zlatnozuta">Goldexpert</span> AI
+            <h1 className="text-xl font-bold mb-6 mt-6 text-left lg:text-3xl p-2 ">
+              We Are <span className=" zlatnozuta">Goldex</span>expert AI
             </h1>
-            <p className="text-sm">
+            <p className="text-sm p-2 ">
               Founded by a team of seasoned traders and tech enthusiasts,
               <br></br>
               Goldexpert was born out of a desire to revolutionize the trading
               <br></br>
               industry.{" "}
             </p>
-            <p>
+            <p className="text-sm p-2">
               We recognized the potential of automation in trading and
               <br></br> dedicated ourselves to developing sophisticated robots
               that

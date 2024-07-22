@@ -6,6 +6,7 @@ interface CardProps {
   title: string;
   description: string;
   imageurlnumber: string;
+  number: string;
 }
 
 const SmallcardThree: React.FC<CardProps> = ({
@@ -13,16 +14,20 @@ const SmallcardThree: React.FC<CardProps> = ({
   title,
   description,
   imageurlnumber,
+  number,
 }) => {
   return (
     <div className="flex">
       <div className="card3">
         <img src={imageUrl} className="card-image3" />
-        <h4 className="card-title3">{title}</h4>
-        <p className="card-description3">{description}</p>
+        <h4 className="card-title3">
+          <span className="text-zlatna">{number}</span>
+          {title}
+        </h4>
+        <p className="text-sm">{description}</p>
       </div>
       <div className=" flex justify-end  ">
-        <img src={imageurlnumber} className="w-8 h-12" />
+        <img src={imageurlnumber} className=" w-full h-14" />
       </div>
     </div>
   );

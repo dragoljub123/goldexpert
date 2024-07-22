@@ -11,10 +11,10 @@ export default function Tradingrobots() {
     <div>
       <div className="pozadinaboja2  ">
         <Navbar />
-        <div className="my-40 ">
+        <div className="my-20 ">
           <div className=" mx-auto flex items-center justify-center ">
-            <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full mb-20">
-              <h1 className="sm:text-5xl  text-white font-bold mb-4  ">
+            <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full mb-40">
+              <h1 className=" text-2xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl ">
                 <span className="zlatnozuta  ">AI</span>&nbsp; Trading Robots
               </h1>
               <p className="text-white mb-4 ">
@@ -25,7 +25,7 @@ export default function Tradingrobots() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="lg:flex justify-center items-center">
         <Image
           src={tabela1}
           alt="slika"
@@ -38,7 +38,7 @@ export default function Tradingrobots() {
         />
       </div>
       <div>
-        <div className="mx-auto flex items-center  justify-center gap-7">
+        <div className="mx-auto lg:flex items-center  justify-center gap-7 sm:flex-row ">
           <Smalcard
             imageSrc1="/TimeIcon.png"
             title="Function "
@@ -64,7 +64,7 @@ export default function Tradingrobots() {
       <div className="pozadinaboja2 flex  justify-center items-center">
         <div className=" pozadina2 mb-10 mt-10">
           <div className="ml-16 mt-36">
-            <h1 className="sm:text-2xl  text-white font-bold mb-4  ">
+            <h1 className="text-2xl  text-white font-bold mb-6 mt-6  lg:text-4xl  ">
               Start Earning
               <span className="zlatnozuta  ">
                 Passive <br></br>Income

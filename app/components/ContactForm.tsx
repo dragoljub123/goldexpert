@@ -48,7 +48,7 @@ const ContactForm: React.FC = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="mx-auto p-4 space-y-4 bg-lightblue shadow-md rounded-lg"
+      className="mx-auto p-4 space-y-4 bg-lightblue shadow-md rounded-lg max-w-lg sm:max-w-2xl"
     >
       <div className="flex flex-col space-y-4">
         <div className="flex flex-col sm:flex-row sm:space-x-4">
@@ -67,13 +67,7 @@ const ContactForm: React.FC = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              style={{
-                width: "416px",
-                height: "57px",
-                backgroundColor: "#141E3B",
-                borderRadius: "2%",
-              }}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+              className="mt-1 block w-full h-14 bg-[#141E3B] rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             />
           </div>
           <div className="flex-1">
@@ -91,13 +85,7 @@ const ContactForm: React.FC = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              style={{
-                width: "416px",
-                height: "57px",
-                backgroundColor: "#141E3B",
-                borderRadius: "2%",
-              }}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+              className="mt-1 block w-full h-14 bg-[#141E3B] rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             />
           </div>
         </div>
@@ -115,18 +103,12 @@ const ContactForm: React.FC = () => {
             value={formData.message}
             onChange={handleChange}
             required
-            style={{
-              width: "856px",
-              height: "258px",
-              backgroundColor: "#141E3B",
-              borderRadius: "2%",
-            }}
-            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block w-full h-64 bg-[#141E3B] rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
           />
         </div>
         <button
           type="submit"
-          className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25"
+          className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-full sm:w-auto"
         >
           Send
         </button>

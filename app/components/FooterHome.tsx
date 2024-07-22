@@ -1,14 +1,6 @@
 import React from "react";
 import goldexpertlogo2 from "../images/goldexpertlogo2.png";
 import Image from "next/image";
-import paypalImage from "@/public/PayPal .png";
-import bitcoinImage from "@/public/bitcoin.png";
-import usdtImage from "@/public/USDT1.png";
-import razorpayImage from "@/public/Razorpay1.png";
-import rupeepayImage from "@/public/Rupeepay1.png";
-import swiffyEftImage from "@/public/SwiffyEft-L.png";
-import ushpayImage from "@/public/ushpay.png";
-import h2payImage from "@/public/h2pay.png";
 
 import {
   FaFacebook,
@@ -23,8 +15,8 @@ import { link } from "fs";
 export const FooterHome: React.FC = () => {
   return (
     <div className=" my-10 mx-10 ">
-      <footer className="flex justify-between  border-b-[1px] mb-5">
-        <div className="">
+      <footer className="lg:flex  justify-between  border-b-[1px] mb-5">
+        <div className="flex justify-center items-center">
           <Link href={"/"}>
             <Image
               src={goldexpertlogo2}
@@ -34,7 +26,7 @@ export const FooterHome: React.FC = () => {
           </Link>
         </div>
 
-        <ul className=" flex justify-between gap-7">
+        <ul className=" lg:flex  text-center lg:gap-7">
           <li>
             <a href="\AboutUS">About us</a>
           </li>
@@ -49,12 +41,42 @@ export const FooterHome: React.FC = () => {
           </li>
         </ul>
 
-        <div className="social-icons flex gap-4 ">
-          <FaFacebook />
-          <FaTwitter />
-          <FaInstagram />
-          <FaLinkedin />
-          <FaYoutube />
+        <div className="social-icons flex gap-4  justify-center items-center my-4">
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebook />
+          </a>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter />
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaYoutube />
+          </a>
         </div>
       </footer>
       <p className=" text-center ">2024 Goldexpert. All rights reserved</p>

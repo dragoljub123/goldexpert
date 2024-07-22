@@ -30,7 +30,7 @@ const Suportkartice: React.FC<CardProps> = ({
         </div>
       </div>
       <div className="card-bodyb3 text-white ">
-        <p className=" text-center">{description}</p>
+        <p className=" text-sm text-center">{description}</p>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ export default function AboutUS() {
         <div className="my-20 ">
           <div className=" mx-auto flex items-center justify-center ">
             <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full mb-20">
-              <h1 className="sm:text-5xl  text-white font-bold mb-4  ">
+              <h1 className="text-2xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl ">
                 About Us
               </h1>
               <p className="text-white mb-4 ">
@@ -23,12 +23,12 @@ export default function AboutUS() {
           </div>
         </div>
 
-        <div className="kontejner  flex justify-center items-center ">
-          <div className=" text-white">
-            <h1 className="">
+        <div className="kontejner lg:flex justify-center items-center ">
+          <div className=" text-white rounded-md">
+            <h1 className="text-xl font-bold mb-6 mt-6 text-left lg:text-3xl ">
               We Are <span className=" zlatnozuta">Goldexpert</span> AI
             </h1>
-            <p>
+            <p className="text-sm">
               Founded by a team of seasoned traders and tech enthusiasts,
               <br></br>
               Goldexpert was born out of a desire to revolutionize the trading
@@ -46,11 +46,7 @@ export default function AboutUS() {
             </p>
           </div>
           <div className="">
-            <Image
-              src={poslovniljudi}
-              alt="slika"
-              className="max-h-screen object-contain"
-            />
+            <Image src={poslovniljudi} alt="slika" className="" />
           </div>
         </div>
       </div>
@@ -58,7 +54,7 @@ export default function AboutUS() {
       <div className=" ">
         <div className="  flex flex-col  justify-between items-center  ">
           <div className=" my-10 w-fit border-b border-white flex flex-col  justify-between items-center">
-            <h2 className="text-5xl p-2  ">
+            <h2 className="text-2xl  font-bold mb-6 mt-6  lg:text-4xl ">
               Why <span className="zlatnozuta">Choose our AI Robots</span>
             </h2>
             <p className=" ">
@@ -66,31 +62,43 @@ export default function AboutUS() {
             </p>
           </div>
         </div>
-        <div className=" flex justify-center  mb-20">
-          <SmallcardThree
-            imageurlnumber="\one.png"
-            imageUrl="\Financial Growth.png"
-            title="1 Advanced Technology"
-            description="Our trading robots are powered by state-of-the-art algorithms and technology, providing you with a   edge in the market."
-          />
-          <SmallcardThree
-            imageurlnumber="\two.png"
-            imageUrl="\Safety Box.png"
-            title="2 Proven Strategies"
-            description="We combine years of trading experience with innovative technology to deliver reliable and profitable trading strategies."
-          />
-          <SmallcardThree
-            imageurlnumber="\three.png"
-            imageUrl="\Risk.png"
-            title="3 Secure and Reliable"
-            description="Your security is our top priority. We adhere to strict regulatory standards and employ robust security measures to protect your investments."
-          />
-          <SmallcardThree
-            imageurlnumber="\three.png"
-            imageUrl="\Risk.png"
-            title="4 Comprehensive Support"
-            description="From setup to troubleshooting, our support team is here to assist you at every step of your trading journey."
-          />
+        <div className=" lg:flex justify-center  mb-20">
+          <div className="p-4 border-[1px] ">
+            <SmallcardThree
+              imageurlnumber=""
+              imageUrl="\Financial Growth.png"
+              title=" Advanced Technology"
+              description="Our trading robots are powered by state-of-the-art algorithms and technology, providing you with a   edge in the market."
+              number="1"
+            />
+          </div>
+          <div className=" p-4 border-[1px]">
+            <SmallcardThree
+              imageurlnumber=""
+              imageUrl="\Safety Box.png"
+              title=" Proven Strategies"
+              description="We combine years of trading experience with innovative technology to deliver reliable and profitable trading strategies."
+              number="2"
+            />
+          </div>
+          <div className=" p-4 border-[1px]">
+            <SmallcardThree
+              imageurlnumber=""
+              imageUrl="\Risk.png"
+              title=" Secure and Reliable"
+              description="Your security is our top priority. We adhere to strict regulatory standards and employ robust security measures to protect your investments."
+              number="3"
+            />
+          </div>
+          <div className=" p-4 border-[1px]">
+            <SmallcardThree
+              imageurlnumber=""
+              imageUrl="\Risk.png"
+              title=" Comprehensive Support"
+              description="From setup to troubleshooting, our support team is here to assist you at every step of your trading journey."
+              number="4"
+            />
+          </div>
         </div>
       </div>
       <div className="pozadinaboja2">
@@ -133,10 +141,10 @@ export default function AboutUS() {
           </div>
         </div>
       </div>
-      <div className="pozadinaboja2 flex  justify-center items-center ">
+      <div className="pozadinaboja2 flex  justify-center items-center">
         <div className=" pozadina2 mb-10 mt-10">
           <div className="ml-16 mt-36">
-            <h1 className="sm:text-2xl  text-white font-bold mb-4  ">
+            <h1 className="text-2xl  text-white font-bold mb-6 mt-6  lg:text-4xl  ">
               Start Earning
               <span className="zlatnozuta  ">
                 Passive <br></br>Income

@@ -50,14 +50,14 @@ export default async function Home() {
           </div>
           <div className=" mx-auto flex items-center justify-center ">
             <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full">
-              <h1 className="sm:text-5xl  text-white font-bold mb-4  ">
+              <h1 className="text-2xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl">
                 Earn Passive Income with
                 <br></br>
                 <span className="zlatnozuta flex items-center justify-center ">
                   AI Trading Robots
                 </span>
               </h1>
-              <p className="text-white mb-4 ">
+              <p className="text-white mb-4 text-center ">
                 Automated Trading Solutions for Gold, NASDAQ, Bitcoin, and Forex
                 Markets
               </p>
@@ -90,8 +90,8 @@ export default async function Home() {
       <div className=" pozadinaboja ">
         <div className="  flex flex-col  justify-between items-center  ">
           <div className=" my-10 w-fit border-b border-white flex flex-col  justify-between items-center">
-            <h2 className="text-5xl p-2  text-white">How it Works</h2>
-            <p className="text-white">
+            <h2 className=" text-4xl p-2  text-white">How it Works</h2>
+            <p className="text-white text-sm">
               Discover how our trading robots use AI algorithms to <br></br>{" "}
               analyze market trends and execute trades automatically
             </p>
@@ -101,37 +101,40 @@ export default async function Home() {
           <SmallcardThree
             imageurlnumber="\one.png"
             imageUrl="\Financial Growth.png"
-            title="1 Market Analysis"
+            title=" Market Analysis"
             description="Our robots continuously monitor the markets 24/7, using advanced algorithms to analyze data and identify trading opportunities."
+            number="1"
           />
           <SmallcardThree
             imageurlnumber="\two.png"
             imageUrl="\Safety Box.png"
-            title="2 Automated Execution"
+            title=" Automated Execution"
             description="Once a favorable condition is detected, the robot executes trades automatically, ensuring swift and accurate order placement."
+            number="2"
           />
           <SmallcardThree
             imageurlnumber="\three.png"
             imageUrl="\Risk.png"
-            title="3 Risk Management"
+            title=" Risk Management"
             description="The robots are designed to maximize your returns by implementing proven trading strategies and minimizing risks through precise execution."
+            number="3"
           />
         </div>
       </div>
 
       <div className=" mx-auto flex items-center justify-center ">
         <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full">
-          <h1 className="sm:text-5xl   font-bold mb-4  ">
+          <h1 className="text-2xl py-4 text-black font-bold mb-6 mt-6 text-center lg:text-4xl ">
             Your Funds are
             <span className="zlatnozuta  "> Insured & Secure</span>
           </h1>
-          <p className=" mb-4 ">
+          <p className=" mb-4 text-center ">
             Trade with confidence knowing your funds are protected by real
             estate
           </p>
         </div>
       </div>
-      <div className="mx-auto flex items-center  justify-center gap-7">
+      <div className="sm:flex-row lg:flex  lg:justify-evenly">
         <Smalcard
           imageSrc1="/Money Bag.png"
           title="Insured Funds "
@@ -150,7 +153,7 @@ export default async function Home() {
       <div className="pozadinaboja2 flex  justify-center items-center">
         <div className=" pozadina2 mb-10 mt-10">
           <div className="ml-16 mt-36">
-            <h1 className="sm:text-2xl  text-white font-bold mb-4  ">
+            <h1 className="text-2xl  text-white font-bold mb-6 mt-6  lg:text-4xl  ">
               Start Earning
               <span className="zlatnozuta  ">
                 Passive <br></br>Income

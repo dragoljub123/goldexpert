@@ -14,7 +14,7 @@ const BigCard3: React.FC<CardProps> = ({
   description,
 }) => {
   return (
-    <div className="cardb3" style={{ width: "568px", height: "542px" }}>
+    <div className="cardb3">
       <div className="flex flex-col  justify-between items-center my-20">
         <img
           src={imageSrc}

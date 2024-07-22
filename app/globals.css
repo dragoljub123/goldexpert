@@ -130,6 +130,12 @@
 
   color: black;
 }
+@media (min-width: 768px) {
+  .cardb3 {
+    width: 568px;
+    height: 542px;
+  }
+}
 
 .zlatntext {
   color: #c69638;

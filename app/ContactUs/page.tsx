@@ -3,21 +3,21 @@ import Image from "next/image";
 import "../globals.css";
 import ContactForm from "../components/ContactForm";
 import React from "react";
-import Suportkartice from "../components/Suportkartica2";
+
 import Suportkartica2 from "../components/Suportkartica2";
 
 export default function ContactUs() {
   return (
     <div>
-      <div className="pozadinaboja2  ">
+      <div className="pozadinaboja2">
         <Navbar />
-        <div className="py-20 ">
-          <div className=" mx-auto flex items-center justify-center ">
-            <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full mb-20">
-              <h1 className="text-2xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl ">
+        <div className="py-20">
+          <div className="mx-auto flex items-center justify-center">
+            <div className="max-w-screen-xl mx-auto flex flex-col justify-between items-center px-4 lg:px-0 h-full mb-20">
+              <h1 className="text-2xl text-white font-bold mb-6 mt-6 text-center lg:text-4xl">
                 Contact Us
               </h1>
-              <p className="text-white mb-4 ">Have questions or need help?</p>
+              <p className="text-white mb-4">Have questions or need help?</p>
             </div>
           </div>
         </div>
@@ -26,8 +26,8 @@ export default function ContactUs() {
       <div className="bg-lightblue text-center mx-auto p-4 space-y-4 shadow-md">
         <h1 className="font-bold text-white text-2xl">24/5 support</h1>
         <p className="text-white">
-          We're here to help. Reach out to us using the contact form below or
-          through our support channels.
+          We&apos;re here to help. Reach out to us using the contact form below
+          or through our support channels.
         </p>
         <div className="bg-lightblue flex flex-col lg:flex-row justify-center items-center mx-auto p-4 space-y-4 lg:space-y-0 lg:space-x-4 shadow-md rounded-lg">
           <div className="flex flex-col w-full lg:w-1/2 p-4">
@@ -38,7 +38,7 @@ export default function ContactUs() {
               <Suportkartica2
                 title2=""
                 title="000 111 222 333"
-                imageSrc="\phonee.png"
+                imageSrc="/phonee.png"
                 description="Call us directly if you need any urgent help. Our agents will help you."
               />
             </div>
@@ -46,7 +46,7 @@ export default function ContactUs() {
               <Suportkartica2
                 title2=""
                 title="support@goldexpert.ai"
-                imageSrc="\Message.png"
+                imageSrc="/Message.png"
                 description="Email us directly if you need any help. Our agents will help you."
               />
             </div>

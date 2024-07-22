@@ -105,11 +105,11 @@ export default function AboutUS() {
         <div className="  flex flex-col  justify-between items-center  ">
           <div className=" my-10 w-fit  flex flex-col  justify-between items-center">
             <div className="flex">
-              <h2 className="text-5xl p-2 text-white ">Our </h2>
-              <h2 className="zlatnozuta text-5xl p-2">Team of Experts</h2>
+              <h2 className="text-3xl p-2 text-white ">Our </h2>
+              <h2 className="zlatnozuta text-3xl p-2">Team of Experts</h2>
             </div>
 
-            <p className=" text-white my-5">
+            <p className=" text-white my-5 text-sm lg:text-lg">
               Each member of our team brings a wealth of knowledge <br></br> and
               experience to the table, ensuring that our products<br></br> meet
               the highest standards of excellence.

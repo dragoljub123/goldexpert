@@ -9,6 +9,7 @@ import SmallcardThree from "./components/SmallcardThree";
 import BigCard3 from "./components/BigCard3";
 import { FooterHome } from "./components/FooterHome";
 import moneyrise2 from "@/public/moneyrise2.png";
+import devojka from "@/public/devojka.png";
 
 async function getPosts() {
   const query = `
@@ -86,21 +87,23 @@ export default async function Home() {
             title2=" Forex "
             title="AI Robot"
             imageSrc="\Currency Exchange.png"
-            description="Analyzes currency markets and executes trades with precision (including NASDAQ and Bitcoin trading). Employs various strategies such as technical analysis and news-based trading to maximize profits."
+            description="Analyzes currency markets and executes trades with precision . Employs various strategies such as technical analysis and news-based trading to maximize profits."
           />
         </div>
       </div>
-      <div className=" pozadinaboja ">
+      <div className=" pozadinaboja bg-gradijent-pozadina">
         <div className="  flex flex-col  justify-between items-center  ">
           <div className=" my-10 w-fit border-b border-white flex flex-col  justify-between items-center">
-            <h2 className=" text-4xl p-2  text-white">How it Works</h2>
-            <p className="text-white text-sm">
+            <h2 className=" text-4xl p-2  text-white font-bold">
+              How it Works
+            </h2>
+            <p className="text-white text-sm m-4">
               Discover how our trading robots use AI algorithms to <br></br>{" "}
               analyze market trends and execute trades automatically
             </p>
           </div>
         </div>
-        <div className=" belitekst justify-center my-20 gap-10 flex flex-col sm:flex-row items-center">
+        <div className=" belitekst  justify-center my-20 gap-10 flex flex-col sm:flex-row items-center">
           <SmallcardThree
             imageurlnumber="\one.png"
             imageUrl="\Financial Growth.png"
@@ -131,7 +134,7 @@ export default async function Home() {
             Your Funds are
             <span className="zlatnozuta  "> Insured & Secure</span>
           </h1>
-          <p className=" mb-4 text-center ">
+          <p className=" mb-4 text-center text-sm ">
             Trade with confidence knowing your funds are protected by real
             estate
           </p>
@@ -150,13 +153,20 @@ export default async function Home() {
         />
       </div>
 
-      <div className=" m-10 flex justify-center">
-        <img
-          src="\Section 6.png"
-          alt="reviewcustomer"
-          className="sm:w-full lg:w-fit "
-        />
+      <div className=" nevidljivo-mob m-10 flex justify-center">
+        <img src="\Section 6.png" alt="reviewcustomer" className="  " />
       </div>
+
+      <div className="flex flex-col justify-center items-center lg:hidden md:hidden xl:hidden">
+        <h1 className="text-2xl font-bold mb-6 mt-6 lg:text-4xl text-center">
+          Happy Customers
+        </h1>
+        <p className="text-center mb-4">
+          Read the testimonials from our happy clients
+        </p>
+        <Image src={devojka} alt="slika" className="mb-4" />
+      </div>
+
       <div className="pozadinaboja2 flex  justify-center items-center">
         <div className=" pozadina2 mb-10 mt-10">
           <div className="ml-16 mt-36">

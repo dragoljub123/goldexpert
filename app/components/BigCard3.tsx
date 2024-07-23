@@ -29,7 +29,7 @@ const BigCard3: React.FC<CardProps> = ({
       <div className="p-4">
         <p className=" text-center  ">{description}</p>
       </div>
-      <div className="card-footerb3 p-4 ">
+      <div className="flex justify-center pb-10 lg:pb-3 ">
         <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25">
           Get Started
         </button>

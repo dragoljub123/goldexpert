@@ -157,14 +157,14 @@ export default async function Home() {
         <img src="\Section 6.png" alt="reviewcustomer" className="  " />
       </div>
 
-      <div className="flex flex-col justify-center items-center lg:hidden md:hidden xl:hidden">
+      <div className="m-4 flex flex-col justify-center items-center lg:hidden md:hidden xl:hidden">
         <h1 className="text-2xl font-bold mb-6 mt-6 lg:text-4xl text-center">
           Happy Customers
         </h1>
         <p className="text-center mb-4 text-sm">
           Read the testimonials from our happy clients
         </p>
-        <Image src={devojka} alt="slika" className="mb-4" />
+        <Image src={devojka} alt="slika" className="mb-4 w-2/3" />
       </div>
 
       <div className="pozadinaboja2 flex  justify-center items-center">

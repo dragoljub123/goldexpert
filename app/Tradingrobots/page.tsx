@@ -5,6 +5,7 @@ import Image from "next/image";
 import tabela1 from "@/app/images/tabela1.png";
 import tabela2 from "@/app/images/tabela2.png";
 import Smalcard from "../components/Smalcard";
+import moneyrise2 from "@/public/moneyrise2.png";
 
 export default function Tradingrobots() {
   return (
@@ -78,6 +79,13 @@ export default function Tradingrobots() {
             <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25 ">
               Get started
             </button>
+          </div>
+          <div className="">
+            <Image
+              src={moneyrise2}
+              alt="slika"
+              className="lg:hidden md:hidden xl:hidden mt-4 mb-4 "
+            />
           </div>
         </div>
       </div>

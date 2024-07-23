@@ -26,10 +26,10 @@ const BigCard3: React.FC<CardProps> = ({
           <h2 className="text-2xl lg:text-4xl px-2">{title}</h2>
         </div>
       </div>
-      <div className="">
-        <p className=" text-center  pb-4">{description}</p>
+      <div className="p-4">
+        <p className=" text-center  ">{description}</p>
       </div>
-      <div className="card-footerb3 ">
+      <div className="card-footerb3 p-4 ">
         <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25">
           Get Started
         </button>

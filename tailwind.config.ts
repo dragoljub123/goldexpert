@@ -17,6 +17,7 @@ const config: Config = {
         customBlue: '#3852AC',
         zlatna: '#c69638',
         lightblue: '#121B34',
+        oblacicsiva:'#F9F9FB',
       },
     },
   },

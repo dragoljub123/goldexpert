@@ -161,7 +161,7 @@ export default async function Home() {
         <h1 className="text-2xl font-bold mb-6 mt-6 lg:text-4xl text-center">
           Happy Customers
         </h1>
-        <p className="text-center mb-4">
+        <p className="text-center mb-4 text-sm">
           Read the testimonials from our happy clients
         </p>
         <Image src={devojka} alt="slika" className="mb-4" />

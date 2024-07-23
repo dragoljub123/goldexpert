@@ -71,15 +71,17 @@ export default async function Home() {
       </div>
 
       <div className=" justify-center flex flex-col sm:flex-row  items-center py-20 gap-10 ">
-        <BigCard3
-          title2=" Gold"
-          title=" AI Robot"
-          imageSrc="\Group 125.png"
-          description="Prioritizes gold trading, leveraging market downturns to 
+        <div className=" flex flex-col items-center">
+          <BigCard3
+            title2=" Gold"
+            title=" AI Robot"
+            imageSrc="\Group 125.png"
+            description="Prioritizes gold trading, leveraging market downturns to 
              capitalize on opportunities.Utilizes advanced technical
               analysis to identify potential buying or selling moments."
-        />
-        <div className="  flex flex-col items-center">
+          />
+        </div>
+        <div className=" flex flex-col items-center">
           <BigCard3
             title2=" Forex "
             title="AI Robot"

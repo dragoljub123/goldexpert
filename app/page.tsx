@@ -177,7 +177,7 @@ export default async function Home() {
             <Image
               src={moneyrise2}
               alt="slika"
-              className="lg:hidden md:hidden xl:hidden mb-4 "
+              className="lg:hidden md:hidden xl:hidden mt-4 mb-4 "
             />
           </div>
         </div>

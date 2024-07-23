@@ -8,6 +8,7 @@ import { Navbar } from "./components/Navbar";
 import SmallcardThree from "./components/SmallcardThree";
 import BigCard3 from "./components/BigCard3";
 import { FooterHome } from "./components/FooterHome";
+import moneyrise2 from "@/public/moneyrise2.png";
 
 async function getPosts() {
   const query = `
@@ -171,6 +172,13 @@ export default async function Home() {
             <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25 ">
               Get started
             </button>
+          </div>
+          <div className="">
+            <Image
+              src={moneyrise2}
+              alt="slika"
+              className="lg:hidden md:hidden xl:hidden mb-4 "
+            />
           </div>
         </div>
       </div>

@@ -50,7 +50,7 @@ export const Navbar = () => {
             <FiMenu />
           </button>
           {showLinks && (
-            <div className="fixed top-0 right-0 w-64 h-full bg-lightblue text-white p-4 shadow-lg transition-transform transform translate-x-0">
+            <div className="fixed top-0 right-0 w-64 h-full bg-lightblue text-white p-4 shadow-lg transition-transform transform translate-x-0 z-50">
               <button
                 onClick={toggleLinks}
                 className="text-white text-2xl focus:outline-none mb-4"

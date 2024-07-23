@@ -24,13 +24,13 @@ const Suportkartica2: React.FC<CardProps> = ({
           alt="Card"
           style={{ width: "auto", height: "auto" }}
         />
-        <div className="flex text-white">
+        <div className="flex text-white ">
           <h2 className="text-4xl px-2 zlatntext">{title2}</h2>
           <h5 className="text-2xl px-3 font-bold">{title}</h5>
         </div>
       </div>
-      <div className="card-bodyb3 text-white ">
-        <p className=" text-center">{description}</p>
+      <div className="card-bodyb3 text-white  ">
+        <p className=" text-center text-sm">{description}</p>
       </div>
     </div>
   );

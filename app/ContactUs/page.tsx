@@ -29,7 +29,7 @@ export default function ContactUs() {
           We&apos;re here to help. Reach out to us using the contact form below
           or through our support channels.
         </p>
-        <div className="bg-lightblue flex flex-col lg:flex-row justify-center items-center mx-auto p-4 space-y-4 lg:space-y-0 lg:space-x-4 shadow-md rounded-lg">
+        <div className="bg-lightblue flex flex-col lg:flex-row justify-center items-center mx-auto p-4 space-y-4 lg:space-y-0 lg:space-x-4 shadow-md rounded-lg max-w-6xl">
           <div className="flex flex-col w-full lg:w-1/2 p-4">
             <ContactForm />
           </div>

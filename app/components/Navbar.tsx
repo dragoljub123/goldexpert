@@ -29,7 +29,11 @@ export const Navbar = () => {
         <Logo title="Capitalrevo" className="text-black" />
         <div className="hidden lg:inline-flex items-center gap-10 text-white">
           {navigation.map((item) => (
-            <Link key={item.title} href={item.href} className="text-sm">
+            <Link
+              key={item.title}
+              href={item.href}
+              className="text-sm hover:text-zlatna"
+            >
               {item.title}
             </Link>
           ))}
@@ -46,15 +50,19 @@ export const Navbar = () => {
             <FiMenu />
           </button>
           {showLinks && (
-            <div className="fixed top-0 right-0 w-64 h-full bg-white p-4 shadow-lg transition-transform transform translate-x-0">
+            <div className="fixed top-0 right-0 w-64 h-full bg-lightblue text-white p-4 shadow-lg transition-transform transform translate-x-0">
               <button
                 onClick={toggleLinks}
-                className="text-black text-2xl focus:outline-none mb-4"
+                className="text-white text-2xl focus:outline-none mb-4"
               >
                 &times;
               </button>
               {navigation.map((item) => (
-                <Link key={item.title} href={item.href} className="block mb-4">
+                <Link
+                  key={item.title}
+                  href={item.href}
+                  className="block mb-4 hover:text-zlatna"
+                >
                   {item.title}
                 </Link>
               ))}

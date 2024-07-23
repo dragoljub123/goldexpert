@@ -148,7 +148,7 @@ export default async function Home() {
       </div>
 
       <div className=" m-10 flex justify-center">
-        <img src="\Section 6.png" alt="" />
+        <img src="\Section 6.png" alt="reviewcustomer" />
       </div>
       <div className="pozadinaboja2 flex  justify-center items-center">
         <div className=" pozadina2 mb-10 mt-10">

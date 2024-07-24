@@ -64,7 +64,7 @@ export default function Tradingrobots() {
       </div>
       <div className="pozadinaboja2 flex  justify-center items-center">
         <div className=" pozadina2 mb-10 mt-10">
-          <div className="ml-16 mt-36">
+          <div className="text-center lg:text-left lg:ml-16 lg:mt-36">
             <h1 className="text-2xl  text-white font-bold mb-6 mt-6  lg:text-4xl  ">
               Start Earning
               <span className="zlatnozuta  ">

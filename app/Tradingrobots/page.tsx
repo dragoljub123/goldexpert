@@ -18,7 +18,7 @@ export default function Tradingrobots() {
               <h1 className=" text-2xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl ">
                 <span className="zlatnozuta  ">AI</span>&nbsp; Trading Robots
               </h1>
-              <p className="text-white mb-4 ">
+              <p className="text-white text-center mb-4 ">
                 Experience the power of AI with our cutting-edge trading robots,
                 maximize your investment returns effortlessly.
               </p>

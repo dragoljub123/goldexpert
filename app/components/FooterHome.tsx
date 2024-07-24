@@ -39,6 +39,9 @@ export const FooterHome: React.FC = () => {
           <li>
             <a href="\ContactUs">Contact</a>
           </li>
+          <li>
+            <a href="\FAQs">FAQs</a>
+          </li>
         </ul>
 
         <div className="social-icons flex gap-4  justify-center items-center my-4">

@@ -38,7 +38,7 @@ export default async function Home() {
     <div>
       <div className="pozadina  ">
         <Navbar />
-        <div className="my-40 ">
+        <div className="my-40 slideUpAnimacija ">
           <div className="flex items-center justify-center   ">
             <Image
               src={Stars}

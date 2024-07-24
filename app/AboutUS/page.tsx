@@ -13,7 +13,7 @@ export default function AboutUS() {
         <Navbar />
         <div className="my-20 ">
           <div className=" mx-auto flex items-center justify-center ">
-            <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full mb-20">
+            <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full mb-20 slideUpAnimacija">
               <h1 className="text-2xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl ">
                 About Us
               </h1>

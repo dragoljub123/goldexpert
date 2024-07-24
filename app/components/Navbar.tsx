@@ -16,6 +16,7 @@ export const Navbar = () => {
     { title: "Trading robots", href: "/Tradingrobots" },
     { title: "About", href: "/AboutUS" },
     { title: "Contact", href: "/ContactUs" },
+    { title: "FAQ's", href: "/FAQs" },
   ];
   const [showLinks, setShowLinks] = useState(false);
 

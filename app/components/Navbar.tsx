@@ -9,6 +9,7 @@ import Image from "next/image";
 import Ellipse from "@/app/images/Ellipse.png";
 import { useState } from "react";
 import { client } from "@/sanity/lib/client";
+import PopupButton from "@/app/components/PopupButton";
 
 export const Navbar = () => {
   const navigation = [
@@ -28,19 +29,17 @@ export const Navbar = () => {
     <div className="w-full h-16 z-50">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 lg:px-0 h-full">
         <Logo title="Capitalrevo" className="text-black" />
-        <div className="hidden lg:inline-flex items-center gap-10 text-white">
+        <div className="hidden lg:inline-flex items-center gap-10 ">
           {navigation.map((item) => (
             <Link
               key={item.title}
               href={item.href}
-              className="text-sm hover:text-zlatna"
+              className="text-sm hover:text-zlatna text-white"
             >
               {item.title}
             </Link>
           ))}
-          <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25">
-            Get started
-          </button>
+          <PopupButton />
         </div>
 
         <div className="md:hidden">

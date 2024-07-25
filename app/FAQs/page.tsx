@@ -24,7 +24,7 @@ export default function FAQs() {
         </div>
       </div>
       <div className="pozadinaboja2 flex-col  justify-center items-center ">
-        <h1 className="font-bold text-white text-2xl lg:px-52 lg:py-10 ">
+        <h1 className="font-bold text-white text-2xl px-4 lg:px-52 lg:py-10 ">
           Frequently Asked Questions
         </h1>
         <div className="">

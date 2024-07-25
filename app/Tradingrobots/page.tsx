@@ -6,6 +6,7 @@ import tabela1 from "@/app/images/tabela1.png";
 import tabela2 from "@/app/images/tabela2.png";
 import Smalcard from "../components/Smalcard";
 import moneyrise2 from "@/public/moneyrise2.png";
+import PopupButton from "@/app/components/PopupButton";
 
 export default function Tradingrobots() {
   return (
@@ -58,9 +59,7 @@ export default function Tradingrobots() {
         </div>
       </div>
       <div className=" text-center mt-5 mb-20">
-        <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-52 h-11  ">
-          Get started
-        </button>
+        <PopupButton />
       </div>
       <div className="pozadinaboja2 flex  justify-center items-center">
         <div className=" pozadina2 mb-10 mt-10">
@@ -76,9 +75,7 @@ export default function Tradingrobots() {
               Empower your financial future with our AI trading<br></br> robots
               and start earning passive income today.
             </p>
-            <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25 ">
-              Get started
-            </button>
+            <PopupButton />
           </div>
           <div className="">
             <Image

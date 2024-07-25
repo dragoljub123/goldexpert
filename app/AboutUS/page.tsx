@@ -5,6 +5,7 @@ import SmallcardThree from "@/app/components/SmallcardThree";
 import poslovniljudi from "@/app/images/poslovniljudi.png";
 import Suportkartice from "../components/Suportkartice";
 import moneyrise2 from "@/public/moneyrise2.png";
+import PopupButton from "@/app/components/PopupButton";
 
 export default function AboutUS() {
   return (
@@ -156,9 +157,7 @@ export default function AboutUS() {
               Empower your financial future with our AI trading<br></br> robots
               and start earning passive income today.
             </p>
-            <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25 ">
-              Get started
-            </button>
+            <PopupButton />
           </div>
           <div className="">
             <Image

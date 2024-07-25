@@ -1,4 +1,5 @@
 import React from "react";
+import PopupButton from "@/app/components/PopupButton";
 
 interface CardProps {
   title: string;
@@ -29,10 +30,8 @@ const BigCard3: React.FC<CardProps> = ({
       <div className="p-4">
         <p className=" text-center  ">{description}</p>
       </div>
-      <div className="flex justify-center pb-10 lg:pb-3 ">
-        <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25">
-          Get Started
-        </button>
+      <div className="flex justify-center pb-10 lg:pb-3 over  z-40">
+        <PopupButton />
       </div>
     </div>
   );

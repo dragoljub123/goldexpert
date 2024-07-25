@@ -10,6 +10,8 @@ import BigCard3 from "./components/BigCard3";
 import { FooterHome } from "./components/FooterHome";
 import moneyrise2 from "@/public/moneyrise2.png";
 import devojka from "@/public/devojka.png";
+import PopupForm from "./components/PopupForm";
+import PopupButton from "./components/PopupButton";
 
 async function getPosts() {
   const query = `
@@ -63,16 +65,14 @@ export default async function Home() {
                 Automated Trading Solutions for Gold, NASDAQ, Bitcoin, and Forex
                 Markets
               </p>
-              <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25 ">
-                Get started
-              </button>
+              <PopupButton />
             </div>
           </div>
         </div>
       </div>
 
       <div className=" justify-center flex flex-col sm:flex-row  items-center py-20 gap-10 ">
-        <div className=" flex flex-col items-center">
+        <div className=" flex flex-col items-center z-40">
           <BigCard3
             title2=" Gold"
             title=" AI Robot"
@@ -82,7 +82,7 @@ export default async function Home() {
               analysis to identify potential buying or selling moments."
           />
         </div>
-        <div className=" flex flex-col items-center">
+        <div className=" flex flex-col items-center z-30">
           <BigCard3
             title2=" Forex "
             title="AI Robot"
@@ -181,9 +181,7 @@ export default async function Home() {
               Empower your financial future with our AI trading<br></br> robots
               and start earning passive income today.
             </p>
-            <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25 ">
-              Get started
-            </button>
+            <PopupButton />
           </div>
           <div className="">
             <Image

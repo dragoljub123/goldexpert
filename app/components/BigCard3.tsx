@@ -30,7 +30,7 @@ const BigCard3: React.FC<CardProps> = ({
       <div className="p-4">
         <p className=" text-center  ">{description}</p>
       </div>
-      <div className="flex justify-center pb-10 lg:pb-3 over  z-40">
+      <div className="flex justify-center pb-10 lg:pb-3   z-40">
         <PopupButton />
       </div>
     </div>

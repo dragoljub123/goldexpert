@@ -1,5 +1,4 @@
 import { Navbar } from "../components/Navbar";
-import PaketCard from "../components/PaketCard";
 import "../globals.css";
 import Image from "next/image";
 import tabela1 from "@/app/images/tabela1.png";

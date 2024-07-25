@@ -1,5 +1,4 @@
 import { Navbar } from "../components/Navbar";
-import Image from "next/image";
 import "../globals.css";
 import ContactForm from "../components/ContactForm";
 import React from "react";

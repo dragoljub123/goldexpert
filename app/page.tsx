@@ -170,7 +170,7 @@ export default async function Home() {
           <div className="text-center lg:text-left lg:ml-16 lg:mt-36">
             <h1 className="text-2xl  text-white font-bold mb-6 mt-6  lg:text-4xl  ">
               Start Earning
-              <span className="zlatnozuta  ">
+              <span className="zlatnozuta">
                 Passive <br></br>Income
               </span>
               <span>Today</span>

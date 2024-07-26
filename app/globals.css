@@ -201,14 +201,6 @@ ul {
   list-style: none;
 }
 
-.mininaslov {
-  font-family: "Century Gothic";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 49px;
-  color: #343a40;
-}
 .belitekst {
   color: white !important;
 }

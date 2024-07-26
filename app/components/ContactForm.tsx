@@ -1,4 +1,3 @@
-// app/components/ContactForm.tsx
 "use client";
 import React, { useState } from "react";
 
@@ -21,7 +20,6 @@ const ContactForm: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Send data to the server or email service
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -32,11 +30,9 @@ const ContactForm: React.FC = () => {
       });
 
       if (response.ok) {
-        // Handle successful form submission
         alert("Message sent successfully!");
         setFormData({ name: "", email: "", message: "" });
       } else {
-        // Handle errors
         alert("Failed to send message.");
       }
     } catch (error) {

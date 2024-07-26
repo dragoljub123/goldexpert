@@ -1,6 +1,7 @@
 import React from "react";
 import goldexpertlogo2 from "../images/goldexpertlogo2.png";
 import Image from "next/image";
+import "../globals.css";
 
 import {
   FaFacebook,

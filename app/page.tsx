@@ -70,7 +70,7 @@ export default async function Home() {
       </div>
 
       <div className=" justify-center flex flex-col sm:flex-row  items-center py-20 gap-28 ">
-        <div className=" flex flex-col items-center z-40">
+        <div className=" flex flex-col items-center z-30">
           <BigCard3
             title2=" Gold"
             title=" AI Robot"
@@ -80,7 +80,7 @@ export default async function Home() {
               analysis to identify potential buying or selling moments."
           />
         </div>
-        <div className=" flex flex-col items-center z-50">
+        <div className=" flex flex-col items-center z-40">
           <BigCard3
             title2=" Forex "
             title="AI Robot"

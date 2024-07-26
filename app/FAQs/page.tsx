@@ -3,6 +3,7 @@ import Image from "next/image";
 import "../globals.css";
 import FaqComponent from "@/app/components/FaqComponent";
 import moneyrise2 from "@/public/moneyrise2.png";
+import PopupButton from "../components/PopupButton";
 
 export default function FAQs() {
   return (
@@ -74,7 +75,7 @@ export default function FAQs() {
           <div className="text-center lg:text-left lg:ml-16 lg:mt-36">
             <h1 className="text-2xl  text-white font-bold mb-6 mt-6  lg:text-4xl  ">
               Start Earning
-              <span className="zlatnozuta  ">
+              <span className="zlatnozuta">
                 Passive <br></br>Income
               </span>
               <span>Today</span>
@@ -83,9 +84,7 @@ export default function FAQs() {
               Empower your financial future with our AI trading<br></br> robots
               and start earning passive income today.
             </p>
-            <button className="bg-customBlue text-white px-12 py-1 rounded-3xl hover:bg-zlatna transition-colors duration-300 w-25 ">
-              Get started
-            </button>
+            <PopupButton />
           </div>
           <div className="">
             <Image

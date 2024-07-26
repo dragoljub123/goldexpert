@@ -1,12 +1,10 @@
 "use client";
-import { title } from "process";
+
 import React from "react";
 import { Logo } from "./Logo";
 import Link from "next/link";
 import { FiMenu } from "react-icons/fi";
 import "../globals.css";
-import Image from "next/image";
-import Ellipse from "@/app/images/Ellipse.png";
 import { useState } from "react";
 import { client } from "@/sanity/lib/client";
 import PopupButton from "@/app/components/PopupButton";

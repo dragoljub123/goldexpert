@@ -9,7 +9,6 @@ import SmallcardThree from "./components/SmallcardThree";
 import BigCard3 from "./components/BigCard3";
 import moneyrise2 from "@/public/moneyrise2.png";
 import devojka from "@/public/devojka.png";
-import PopupForm from "./components/PopupForm";
 import PopupButton from "./components/PopupButton";
 
 async function getPosts() {

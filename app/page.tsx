@@ -7,7 +7,6 @@ import Image from "next/image";
 import { Navbar } from "./components/Navbar";
 import SmallcardThree from "./components/SmallcardThree";
 import BigCard3 from "./components/BigCard3";
-import { FooterHome } from "./components/FooterHome";
 import moneyrise2 from "@/public/moneyrise2.png";
 import devojka from "@/public/devojka.png";
 import PopupForm from "./components/PopupForm";
@@ -71,7 +70,7 @@ export default async function Home() {
         </div>
       </div>
 
-      <div className=" justify-center flex flex-col sm:flex-row  items-center py-20 gap-10 ">
+      <div className=" justify-center flex flex-col sm:flex-row  items-center py-20 gap-28 ">
         <div className=" flex flex-col items-center z-40">
           <BigCard3
             title2=" Gold"
@@ -82,7 +81,7 @@ export default async function Home() {
               analysis to identify potential buying or selling moments."
           />
         </div>
-        <div className=" flex flex-col items-center z-30">
+        <div className=" flex flex-col items-center z-50">
           <BigCard3
             title2=" Forex "
             title="AI Robot"

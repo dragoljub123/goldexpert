@@ -57,16 +57,16 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
         <h1 className="text-xl font-bold mb-6 text-center">
           Start earning passive income today
         </h1>
-        <div className="flex justify-between mb-6">
+        <div className="flex  justify-center mb-6">
           <div className="flex-1 mx-2 p-4 border rounded-lg">
             <div className="flex items-center mb-4">
-              <label htmlFor="option1" className="font-bold px-2">
+              <label htmlFor="option1" className="font-bold ">
                 Gold Robot
               </label>
               <input
                 type="checkbox"
                 id="option1"
-                className="form-checkbox h-5 w-5 text-customBlue"
+                className="form-checkbox h-5 w-5 text-customBlue ml-2"
                 checked={goldRobot}
                 onChange={(e) => setGoldRobot(e.target.checked)}
               />
@@ -76,14 +76,14 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
             </p>
           </div>
           <div className="flex-1 mx-2 p-4 border rounded-lg">
-            <div className="flex mb-4">
-              <label htmlFor="option2" className="font-bold px-2">
+            <div className="flex items-center mb-4">
+              <label htmlFor="option2" className="font-bold ">
                 Forex Robot
               </label>
               <input
                 type="checkbox"
                 id="option2"
-                className="form-checkbox h-5 w-5 text-customBlue"
+                className="form-checkbox h-5 w-5 text-customBlue ml-2"
                 checked={forexRobot}
                 onChange={(e) => setForexRobot(e.target.checked)}
               />

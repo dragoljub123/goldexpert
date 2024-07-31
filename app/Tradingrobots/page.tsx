@@ -9,7 +9,7 @@ import PopupButton from "@/app/components/PopupButton";
 
 export default function Tradingrobots() {
   return (
-    <div>
+    <div className="max-w-screen-1440p mx-auto">
       <div className="pozadinaboja2  ">
         <Navbar />
         <div className="my-20 ">

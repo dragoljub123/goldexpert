@@ -7,14 +7,14 @@ import PopupButton from "../components/PopupButton";
 
 export default function FAQs() {
   return (
-    <div>
+    <div className="max-w-screen-1440p mx-auto">
       <div className="pozadinaboja2  ">
         <Navbar />
         <div className="py-20">
           <div className="mx-auto flex items-center justify-center slideUpAnimacija ">
             <div className="max-w-screen-xl mx-auto flex flex-col justify-between items-center px-4 lg:px-0 h-full mb-20">
               <h1 className="text-2xl text-white font-bold mb-6 mt-6 text-center lg:text-4xl">
-                FAQ’s
+                FAQ's
               </h1>
               <p className="text-white mb-4">
                 Find answers to the most common questions about our trading

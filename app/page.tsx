@@ -10,6 +10,7 @@ import BigCard3 from "./components/BigCard3";
 import moneyrise2 from "@/public/moneyrise2.png";
 import devojka from "@/public/devojka.png";
 import PopupButton from "./components/PopupButton";
+import Testimonial from "./components/Testimonial";
 
 async function getPosts() {
   const query = `
@@ -35,7 +36,7 @@ export default async function Home() {
   console.log(posts, "posts");
 
   return (
-    <div>
+    <div className="max-w-screen-1440p mx-auto">
       <div className="pozadina  ">
         <Navbar />
         <div className="my-40 slideUpAnimacija ">
@@ -69,7 +70,7 @@ export default async function Home() {
         </div>
       </div>
 
-      <div className=" justify-center flex flex-col sm:flex-row  items-center py-20 gap-28 ">
+      <div className=" bg-[#F6F9FC] justify-center flex flex-col sm:flex-row  items-center py-20 gap-28 ">
         <div className=" flex flex-col items-center z-30">
           <BigCard3
             title2=" Gold"
@@ -101,7 +102,7 @@ export default async function Home() {
             </p>
           </div>
         </div>
-        <div className=" belitekst  justify-center my-20 gap-10 flex flex-col sm:flex-row items-center">
+        <div className=" belitekst  justify-center gap-10 flex flex-col sm:flex-row items-center">
           <SmallcardThree
             imageurlnumber="\one.png"
             imageUrl="\Financial Growth.png"
@@ -126,7 +127,7 @@ export default async function Home() {
         </div>
       </div>
 
-      <div className=" mx-auto flex items-center justify-center ">
+      <div className=" bg-[#F6F9FC] mx-auto flex items-center justify-center ">
         <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full">
           <h1 className="text-2xl py-4 text-black font-bold mb-6 mt-6 text-center lg:text-4xl ">
             Your Funds are
@@ -138,7 +139,7 @@ export default async function Home() {
           </p>
         </div>
       </div>
-      <div className="sm:flex-row lg:flex  lg:justify-evenly">
+      <div className="bg-[#F6F9FC] sm:flex-row lg:flex  lg:justify-evenly">
         <Smalcard
           imageSrc1="/Money Bag.png"
           title="Insured Funds "
@@ -151,7 +152,7 @@ export default async function Home() {
         />
       </div>
 
-      <div className=" nevidljivo-mob m-10 flex justify-center">
+      <div className=" bg-[#F6F9FC] nevidljivo-mob  flex justify-center">
         <img src="\Section 6.png" alt="reviewcustomer" className="  " />
       </div>
 
@@ -162,7 +163,7 @@ export default async function Home() {
         <p className="text-center mb-4 text-sm">
           Read the testimonials from our happy clients
         </p>
-        <Image src={devojka} alt="slika" className="mb-4 w-2/3" />
+        <Testimonial />
       </div>
 
       <div className="pozadinaboja2 flex  justify-center items-center">

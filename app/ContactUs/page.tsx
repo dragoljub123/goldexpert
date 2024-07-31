@@ -7,7 +7,7 @@ import Suportkartica2 from "../components/Suportkartica2";
 
 export default function ContactUs() {
   return (
-    <div>
+    <div className="max-w-screen-1440p mx-auto">
       <div className="pozadinaboja2">
         <Navbar />
         <div className="py-20">

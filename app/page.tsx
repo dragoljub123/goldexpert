@@ -56,7 +56,7 @@ export default async function Home() {
               <h1 className="text-2xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl">
                 Earn Passive Income with
                 <br></br>
-                <span className="zlatnozuta flex items-center justify-center ">
+                <span className="zlatnozuta flex items-center justify-center  ">
                   AI Trading Robots
                 </span>
               </h1>

@@ -11,8 +11,8 @@ const Testimonial = () => {
         </div>
       </div>
       <p className="mb-2 text-sm">
-        Thanks to the Goldexpert AI robot, I've earned consistent passive
-        income. It's automated trading at its finest!
+        Thanks to the Goldexpert AI robot, I&apos;ve earned consistent passive
+        income. It&apos;s automated trading at its finest!
       </p>
       <div className="flex items-center">
         <img

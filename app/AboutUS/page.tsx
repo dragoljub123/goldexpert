@@ -123,7 +123,7 @@ export default function AboutUS() {
             title2=""
             title=" Trading Experts"
             imageSrc="\CreditCard.png"
-            description="Our finance professionals possess deep insights into market dynamics and trading strategies, which form the backbone of our robots' algorithms."
+            description="Our finance professionals possess deep insights into market dynamics and trading strategies, which form the backbone of our robot's algorithms."
           />
           <div className="  flex flex-col items-center">
             <Suportkartice

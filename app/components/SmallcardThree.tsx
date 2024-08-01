@@ -19,7 +19,7 @@ const SmallcardThree: React.FC<CardProps> = ({
   return (
     <div className="flex">
       <div className="card3">
-        <img src={imageUrl} className="card-image3" />
+        <img src={imageUrl} alt="slika167" className="card-image3" />
         <h4 className="card-title3">
           <span className="text-zlatna">{number}</span>
           {title}

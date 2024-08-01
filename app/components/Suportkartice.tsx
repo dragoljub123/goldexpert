@@ -21,7 +21,7 @@ const Suportkartice: React.FC<CardProps> = ({
       <div className="flex flex-col  justify-between items-center ">
         <img
           src={imageSrc}
-          alt="Card"
+          alt="Card1235678"
           style={{ width: "auto", height: "auto" }}
         />
         <div className="flex text-white">

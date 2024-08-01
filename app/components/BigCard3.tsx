@@ -19,7 +19,7 @@ const BigCard3: React.FC<CardProps> = ({
       <div className="flex flex-col my-10 justify-between items-center lg:my-20">
         <img
           src={imageSrc}
-          alt="Card"
+          alt="slika1234"
           style={{ width: "auto", height: "auto" }}
         />
         <div className="flex mt-8 font-bold ">

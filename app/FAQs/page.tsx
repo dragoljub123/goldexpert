@@ -89,7 +89,7 @@ export default function FAQs() {
           <div className="">
             <Image
               src={moneyrise2}
-              alt="slika"
+              alt="slika999"
               className="lg:hidden md:hidden xl:hidden mt-4 mb-4 "
             />
           </div>

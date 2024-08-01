@@ -8,7 +8,6 @@ import { Navbar } from "./components/Navbar";
 import SmallcardThree from "./components/SmallcardThree";
 import BigCard3 from "./components/BigCard3";
 import moneyrise2 from "@/public/moneyrise2.png";
-import devojka from "@/public/devojka.png";
 import PopupButton from "./components/PopupButton";
 import Testimonial from "./components/Testimonial";
 
@@ -43,7 +42,7 @@ export default async function Home() {
           <div className="flex items-center justify-center   ">
             <Image
               src={Stars}
-              alt="slika"
+              alt="slika8912"
               className="max-h-screen object-contain"
             />
             <p className="text-white text-xs">

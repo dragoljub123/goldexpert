@@ -17,7 +17,7 @@ const Testimonial = () => {
       <div className="flex items-center">
         <img
           src="/Oval.png"
-          alt="Emma Walker"
+          alt="Emma Walker1234"
           className="w-12 h-12 rounded-full mr-2"
         />
         <div>

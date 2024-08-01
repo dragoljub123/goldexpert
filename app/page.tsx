@@ -151,8 +151,53 @@ export default async function Home() {
         />
       </div>
 
-      <div className=" bg-[#F6F9FC] nevidljivo-mob  flex justify-center">
-        <img src="\Section 6.png" alt="reviewcustomer" className="  " />
+      <div className=" bg-[#F6F9FC] nevidljivo-mob  flex-col justify-center pb-20 ">
+        <h1 className="text-2xl font-bold pt-20  lg:text-4xl text-center">
+          Happy Customers
+        </h1>
+        <p className="text-center mb-4 text-sm p-10 ">
+          Read the testimonials from our happy clients
+        </p>
+        <div className="flex  justify-evenly items-center">
+          <Testimonial
+            name="Emma Walker"
+            location="Dubai"
+            imageSrc="/Oval.png"
+            testimonial="Thanks to the Goldexpert AI robot, I've earned consistent passive income. It's automated trading at its finest!"
+          />
+          <Testimonial
+            name="Maximilian Kowalski"
+            location="Germany"
+            imageSrc="/Oval(1).png"
+            testimonial="The gold AI trading robot exceeded my expectations. It's reliable and has brought me significant profits effortlessly."
+          />
+          <Testimonial
+            name="Sophia Chang"
+            location="Singapore"
+            imageSrc="/Oval(2).png"
+            testimonial="Impressed by how the Forex AI robot has simplified trading for me. It's reliable and profitable!"
+          />
+        </div>
+        <div className="flex  justify-evenly items-center">
+          <Testimonial
+            name="Liam Patel"
+            location="Thailand"
+            imageSrc="/Oval(3).png"
+            testimonial="The gold trading AI robot is a game-changer! It's helped me grow my investments with minimal effort."
+          />
+          <Testimonial
+            name="Elena Rossi "
+            location="Hong Kong"
+            imageSrc="/Oval(4).png"
+            testimonial="The Forex robot has been a lifesaver. It's user-friendly and has allowed me to earn extra income consistently!"
+          />
+          <Testimonial
+            name="Jacob Nguyen"
+            location="China"
+            imageSrc="/Oval(5).png"
+            testimonial="Using the AI trading robot has been a great decision. It's efficient and has helped me diversify my portfolio effectively."
+          />
+        </div>
       </div>
 
       <div className="m-4 flex flex-col justify-center items-center lg:hidden md:hidden xl:hidden">
@@ -162,7 +207,12 @@ export default async function Home() {
         <p className="text-center mb-4 text-sm">
           Read the testimonials from our happy clients
         </p>
-        <Testimonial />
+        <Testimonial
+          name="Emma Walker"
+          location="Dubai"
+          imageSrc="/Oval.png"
+          testimonial="Thanks to the Goldexpert AI robot, I've earned consistent passive income. It's automated trading at its finest!"
+        />
       </div>
 
       <div className="pozadinaboja2 flex  justify-center items-center">

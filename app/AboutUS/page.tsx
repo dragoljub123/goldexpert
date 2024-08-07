@@ -25,30 +25,36 @@ export default function AboutUS() {
           </div>
         </div>
 
-        <div className="kontejner lg:flex justify-center items-center ">
-          <div className=" text-white rounded-md">
-            <h1 className="text-xl font-bold mb-6 mt-6 text-left lg:text-3xl p-2 ">
-              We Are <span className=" zlatnozuta">Goldex</span>expert AI
-            </h1>
-            <p className="text-sm p-2 ">
-              Founded by a team of seasoned traders and tech enthusiasts,
-              <br></br>
-              Goldexpert was born out of a desire to revolutionize the trading
-              <br></br>
-              industry.{" "}
-            </p>
-            <p className="text-sm p-2">
-              We recognized the potential of automation in trading and
-              <br></br> dedicated ourselves to developing sophisticated robots
-              that
-              <br></br> leverage the latest technology to provide unparalleled
-              trading <br></br>performance. Our journey began with a vision to
-              make <br></br>automated trading accessible and effective for
-              everyone.
-            </p>
-          </div>
-          <div className="">
-            <Image src={poslovniljudi} alt="slika" className="" />
+        <div className="lg:flex lg:justify-center lg:items-center">
+          <div className="kontejner  m-10 rounded-lg lg:w-[1280px] lg:flex lg:justify-center lg:items-center ">
+            <div className=" text-white rounded-md">
+              <h1 className="text-xl font-bold mb-6 mt-6 text-left lg:text-3xl p-2 ">
+                We Are <span className=" zlatnozuta">Goldex</span>expert AI
+              </h1>
+              <p className="text-sm p-2 ">
+                Founded by a team of seasoned traders and tech enthusiasts,
+                <br></br>
+                Goldexpert was born out of a desire to revolutionize the trading
+                <br></br>
+                industry.{" "}
+              </p>
+              <p className="text-sm p-2">
+                We recognized the potential of automation in trading and
+                <br></br> dedicated ourselves to developing sophisticated robots
+                that
+                <br></br> leverage the latest technology to provide unparalleled
+                trading <br></br>performance. Our journey began with a vision to
+                make <br></br>automated trading accessible and effective for
+                everyone.
+              </p>
+            </div>
+            <div className="">
+              <Image
+                src={poslovniljudi}
+                alt="slika"
+                className="rounded-lg p-2 md:p-0 "
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -65,7 +71,7 @@ export default function AboutUS() {
             </div>
           </div>
           <div className=" lg:flex justify-center  mb-20">
-            <div className="p-4 border-[1px] ">
+            <div className="p-4 border-[1px] h-[275px]">
               <SmallcardThree
                 imageurlnumber="\one.png"
                 imageUrl="\Financial Growth.png"
@@ -74,7 +80,7 @@ export default function AboutUS() {
                 number="1"
               />
             </div>
-            <div className=" p-4 border-[1px]">
+            <div className=" p-4 border-[1px] h-[275px]">
               <SmallcardThree
                 imageurlnumber="\two.png"
                 imageUrl="\Safety Box.png"
@@ -83,7 +89,7 @@ export default function AboutUS() {
                 number="2"
               />
             </div>
-            <div className=" p-4 border-[1px]">
+            <div className=" p-4 border-[1px] h-[275px]">
               <SmallcardThree
                 imageurlnumber="\two.png"
                 imageUrl="\Risk.png"
@@ -92,7 +98,7 @@ export default function AboutUS() {
                 number="3"
               />
             </div>
-            <div className=" p-4 border-[1px]">
+            <div className=" p-4 border-[1px] h-[275px]">
               <SmallcardThree
                 imageurlnumber="\two.png"
                 imageUrl="\Risk.png"
@@ -158,7 +164,9 @@ export default function AboutUS() {
               Empower your financial future with our AI trading<br></br> robots
               and start earning passive income today.
             </p>
-            <PopupButton />
+            <span className="neondugmence">
+              <PopupButton />
+            </span>
           </div>
           <div className="">
             <Image

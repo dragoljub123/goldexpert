@@ -7,7 +7,7 @@ import PopupButton from "../components/PopupButton";
 
 export default function FAQs() {
   return (
-    <div className="max-w-screen-1440p mx-auto">
+    <div className=" mx-auto">
       <div className="pozadinaboja2  ">
         <Navbar />
         <div className="py-20">
@@ -25,48 +25,50 @@ export default function FAQs() {
         </div>
       </div>
       <div className="pozadinaboja2 flex-col  justify-center items-center ">
-        <h1 className="font-bold text-white text-2xl px-4 lg:px-52 lg:py-10 ">
-          Frequently Asked Questions
-        </h1>
-        <div className="">
-          <FaqComponent
-            question="Q:  What is an AI trading robot and how does it work?"
-            answer="An AI trading robot is an automated system that uses artificial intelligence to analyze market data and execute trades automatically. This advanced technology helps in identifying trading opportunities and making informed decisions without human intervention."
-          />
+        <div className="flex justify-center items-center">
+          <div className="max-w-screen-1440p w-full">
+            <h1 className="font-bold text-white text-2xl px-4 lg:px-52 lg:py-10 ">
+              Frequently Asked Questions
+            </h1>
+            <FaqComponent
+              question="Q:  What is an AI trading robot and how does it work?"
+              answer="An AI trading robot is an automated system that uses artificial intelligence to analyze market data and execute trades automatically. This advanced technology helps in identifying trading opportunities and making informed decisions without human intervention."
+            />
 
-          <FaqComponent
-            question="Q:  How do I start using the trading robot?"
-            answer="To start using the trading robot, simply fill in the contact form  on our website, and we will get in touch with you to guide you through the setup process."
-          />
-          <FaqComponent
-            question="Q:  Are the trading robots compatible with all trading platforms?"
-            answer="An automated trading robot is software that uses algorithms to analyze market data and execute trades automatically."
-          />
-          <FaqComponent
-            question="Q:  What types of assets can I trade with the robot?"
-            answer="You can trade a variety of assets with our trading robot, including forex and gold, which are our primary focuses. Additionally, the robot also supports trading in bitcoin and Nasdaq stocks."
-          />
-          <FaqComponent
-            question="Q:  How secure are my funds when using the trading robot?"
-            answer="Your funds are highly secure when using our trading robot. We maintain 80% collateral in real estate, and our company is regulated and adheres to strict security protocols to protect your investments."
-          />
+            <FaqComponent
+              question="Q:  How do I start using the trading robot?"
+              answer="To start using the trading robot, simply fill in the contact form  on our website, and we will get in touch with you to guide you through the setup process."
+            />
+            <FaqComponent
+              question="Q:  Are the trading robots compatible with all trading platforms?"
+              answer="An automated trading robot is software that uses algorithms to analyze market data and execute trades automatically."
+            />
+            <FaqComponent
+              question="Q:  What types of assets can I trade with the robot?"
+              answer="You can trade a variety of assets with our trading robot, including forex and gold, which are our primary focuses. Additionally, the robot also supports trading in bitcoin and Nasdaq stocks."
+            />
+            <FaqComponent
+              question="Q:  How secure are my funds when using the trading robot?"
+              answer="Your funds are highly secure when using our trading robot. We maintain 80% collateral in real estate, and our company is regulated and adheres to strict security protocols to protect your investments."
+            />
 
-          <FaqComponent
-            question="Q:  What kind of returns can I expect from using the trading robot?"
-            answer="An automated trading robot is software that uses algorithms to analyze market data and execute trades automatically."
-          />
-          <FaqComponent
-            question="Q: Are there any fees associated with using the trading robot?"
-            answer="There are no fees associated with using our trading robot. You can enjoy the benefits of automated trading without any additional costs, except for the small commission on profits."
-          />
-          <FaqComponent
-            question="Q:  Can I customize the trading strategies used by the robot?"
-            answer="No, the trading strategies used by the robot cannot be customized. Our robot uses a proprietary AI algorithm that is designed to deliver optimal trading results based on comprehensive market analysis."
-          />
-          <FaqComponent
-            question="Q:  What level of customer support is available for trading robot users?"
-            answer="We offer 24/5 customer support to assist our trading robot users. Our dedicated support team is available to help you with any questions or issues you may encounter."
-          />
+            <FaqComponent
+              question="Q:  What kind of returns can I expect from using the trading robot?"
+              answer="An automated trading robot is software that uses algorithms to analyze market data and execute trades automatically."
+            />
+            <FaqComponent
+              question="Q: Are there any fees associated with using the trading robot?"
+              answer="There are no fees associated with using our trading robot. You can enjoy the benefits of automated trading without any additional costs, except for the small commission on profits."
+            />
+            <FaqComponent
+              question="Q:  Can I customize the trading strategies used by the robot?"
+              answer="No, the trading strategies used by the robot cannot be customized. Our robot uses a proprietary AI algorithm that is designed to deliver optimal trading results based on comprehensive market analysis."
+            />
+            <FaqComponent
+              question="Q:  What level of customer support is available for trading robot users?"
+              answer="We offer 24/5 customer support to assist our trading robot users. Our dedicated support team is available to help you with any questions or issues you may encounter."
+            />
+          </div>
         </div>
       </div>
 
@@ -84,7 +86,9 @@ export default function FAQs() {
               Empower your financial future with our AI trading<br></br> robots
               and start earning passive income today.
             </p>
-            <PopupButton />
+            <span className="neondugmence">
+              <PopupButton />
+            </span>
           </div>
           <div className="">
             <Image

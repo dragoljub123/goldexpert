@@ -22,14 +22,14 @@ export default function ContactUs() {
         </div>
       </div>
 
-      <div className="max-w-screen-1440p  bg-lightblue text-center mx-auto p-4 space-y-4 shadow-md">
+      <div className=" bg-lightblue text-center mx-auto p-4 space-y-4 shadow-md">
         <h1 className="font-bold text-white text-2xl">24/5 support</h1>
         <p className="text-white">
           We&apos;re here to help. Reach out to us using the contact form below
           or through our support channels.
         </p>
         <div className="bg-lightblue flex flex-col lg:flex-row justify-center items-center mx-auto p-4 space-y-4 lg:space-y-0 lg:space-x-4 shadow-md rounded-lg max-w-6xl">
-          <div className="flex flex-col w-full lg:w-1/2 p-4">
+          <div className="flex flex-col max-w-screen-1440p  lg:w-1/2 p-4">
             <ContactForm />
           </div>
           <div className="flex flex-col   justify-evenlyn lg:w-1/2  space-y-4">

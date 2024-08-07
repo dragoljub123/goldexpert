@@ -11,7 +11,11 @@ interface Props {
 export const Logo = ({ title, className }: Props) => {
   return (
     <Link href={"/"}>
-      <Image src={glogo} alt="slika" className=" object-contain" />
+      <Image
+        src={glogo}
+        alt="slika"
+        className="w-[134px] h-[27px] md:w-[204px] md:h-[41px]"
+      />
     </Link>
   );
 };

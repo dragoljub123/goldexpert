@@ -7,11 +7,11 @@ import Suportkartica2 from "../components/Suportkartica2";
 
 export default function ContactUs() {
   return (
-    <div className="max-w-screen-1440p mx-auto">
+    <div className="mx-auto">
       <div className="pozadinaboja2">
         <Navbar />
-        <div className="py-20">
-          <div className="mx-auto flex items-center justify-center">
+        <div className=" py-20">
+          <div className="max-w-screen-1440p  mx-auto flex items-center justify-center">
             <div className="max-w-screen-xl mx-auto flex flex-col justify-between items-center px-4 lg:px-0 h-full mb-20 slideUpAnimacija">
               <h1 className="text-2xl text-white font-bold mb-6 mt-6 text-center lg:text-4xl">
                 Contact Us
@@ -22,7 +22,7 @@ export default function ContactUs() {
         </div>
       </div>
 
-      <div className="bg-lightblue text-center mx-auto p-4 space-y-4 shadow-md">
+      <div className="max-w-screen-1440p  bg-lightblue text-center mx-auto p-4 space-y-4 shadow-md">
         <h1 className="font-bold text-white text-2xl">24/5 support</h1>
         <p className="text-white">
           We&apos;re here to help. Reach out to us using the contact form below

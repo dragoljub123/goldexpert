@@ -15,8 +15,8 @@ const Smalcard: React.FC<props> = (props) => {
         <h2 className="lg:text-2xl">{props.title}</h2>
       </div>
 
-      <div className=" p-2 ">
-        <p className="">{props.text}</p>
+      <div className="  ">
+        <p className="text-gray-700 text-xs lg:text-sm">{props.text}</p>
       </div>
     </div>
   );

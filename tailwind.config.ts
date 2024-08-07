@@ -27,6 +27,10 @@ const config: Config = {
         oblacicsiva:'#F9F9FB',
         
       },
+      boxShadow: {
+        neon: '0 0 10px rgba(56, 82, 172, 0.8)', // Neon efekat
+        'neon-lg': '0 0 20px rgba(56, 82, 172, 0.8)', // Veći neon efekat
+      },
     },
   },
   plugins: [],

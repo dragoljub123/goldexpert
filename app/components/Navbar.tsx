@@ -25,7 +25,7 @@ export const Navbar = () => {
 
   return (
     <div className="w-full h-16 z-50">
-      <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 lg:px-0 h-full">
+      <div className="max-w-screen-1440p  mx-auto flex items-center justify-between px-4 lg:px-0 h-full">
         <Logo title="Capitalrevo" className="text-black" />
         <div className="hidden lg:inline-flex items-center gap-10 ">
           {navigation.map((item) => (
@@ -40,13 +40,18 @@ export const Navbar = () => {
           <PopupButton />
         </div>
 
-        <div className="md:hidden">
-          <button
-            onClick={toggleLinks}
-            className="text-white text-2xl focus:outline-none"
-          >
-            <FiMenu />
-          </button>
+        <div className="lg:hidden">
+          <div className="flex gap-5 justify-center items-center">
+            <span className="neondugmence w-[120px] h-[20px]  text-xs flex  justify-center items-center ">
+              <PopupButton />
+            </span>
+            <button
+              onClick={toggleLinks}
+              className="text-white text-2xl focus:outline-none"
+            >
+              <FiMenu />
+            </button>
+          </div>
           {showLinks && (
             <div className="fixed top-0 right-0 w-64 h-full bg-lightblue text-white p-4 shadow-lg transition-transform transform translate-x-0 z-50">
               <button

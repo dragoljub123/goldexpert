@@ -9,7 +9,7 @@ import PopupButton from "@/app/components/PopupButton";
 
 export default function AboutUS() {
   return (
-    <div className="max-w-screen-1440p mx-auto">
+    <div className=" mx-auto">
       <div className="pozadinaboja2  ">
         <Navbar />
         <div className="my-20 ">
@@ -52,54 +52,55 @@ export default function AboutUS() {
           </div>
         </div>
       </div>
-
-      <div className=" ">
-        <div className="  flex flex-col  justify-between items-center  ">
-          <div className=" my-10 w-fit border-b border-white flex flex-col  justify-between items-center">
-            <h2 className="text-2xl  font-bold mb-6 mt-6  lg:text-4xl ">
-              Why <span className="zlatnozuta">Choose our AI Robots</span>
-            </h2>
-            <p className=" ">
-              Discover the advantages of our cutting-edge AI trading robots
-            </p>
+      <div className="flex justify-center">
+        <div className=" max-w-screen-1440p">
+          <div className="  flex flex-col  justify-between items-center  ">
+            <div className=" my-10 w-fit border-b border-white flex flex-col  justify-between items-center">
+              <h2 className="text-2xl  font-bold mb-6 mt-6  lg:text-4xl ">
+                Why <span className="zlatnozuta">Choose our AI Robots</span>
+              </h2>
+              <p className=" ">
+                Discover the advantages of our cutting-edge AI trading robots
+              </p>
+            </div>
           </div>
-        </div>
-        <div className=" lg:flex justify-center  mb-20">
-          <div className="p-4 border-[1px] ">
-            <SmallcardThree
-              imageurlnumber="\one.png"
-              imageUrl="\Financial Growth.png"
-              title=" Advanced Technology"
-              description="Our trading robots are powered by state-of-the-art algorithms and technology, providing you with a   edge in the market."
-              number="1"
-            />
-          </div>
-          <div className=" p-4 border-[1px]">
-            <SmallcardThree
-              imageurlnumber="\two.png"
-              imageUrl="\Safety Box.png"
-              title=" Proven Strategies"
-              description="We combine years of trading experience with innovative technology to deliver reliable and profitable trading strategies."
-              number="2"
-            />
-          </div>
-          <div className=" p-4 border-[1px]">
-            <SmallcardThree
-              imageurlnumber="\two.png"
-              imageUrl="\Risk.png"
-              title=" Secure and Reliable"
-              description="Your security is our top priority. We adhere to strict regulatory standards and employ robust security measures to protect your investments."
-              number="3"
-            />
-          </div>
-          <div className=" p-4 border-[1px]">
-            <SmallcardThree
-              imageurlnumber="\two.png"
-              imageUrl="\Risk.png"
-              title=" Comprehensive Support"
-              description="From setup to troubleshooting, our support team is here to assist you at every step of your trading journey."
-              number="4"
-            />
+          <div className=" lg:flex justify-center  mb-20">
+            <div className="p-4 border-[1px] ">
+              <SmallcardThree
+                imageurlnumber="\one.png"
+                imageUrl="\Financial Growth.png"
+                title=" Advanced Technology"
+                description="Our trading robots are powered by state-of-the-art algorithms and technology, providing you with a   edge in the market."
+                number="1"
+              />
+            </div>
+            <div className=" p-4 border-[1px]">
+              <SmallcardThree
+                imageurlnumber="\two.png"
+                imageUrl="\Safety Box.png"
+                title=" Proven Strategies"
+                description="We combine years of trading experience with innovative technology to deliver reliable and profitable trading strategies."
+                number="2"
+              />
+            </div>
+            <div className=" p-4 border-[1px]">
+              <SmallcardThree
+                imageurlnumber="\two.png"
+                imageUrl="\Risk.png"
+                title=" Secure and Reliable"
+                description="Your security is our top priority. We adhere to strict regulatory standards and employ robust security measures to protect your investments."
+                number="3"
+              />
+            </div>
+            <div className=" p-4 border-[1px]">
+              <SmallcardThree
+                imageurlnumber="\two.png"
+                imageUrl="\Risk.png"
+                title=" Comprehensive Support"
+                description="From setup to troubleshooting, our support team is here to assist you at every step of your trading journey."
+                number="4"
+              />
+            </div>
           </div>
         </div>
       </div>

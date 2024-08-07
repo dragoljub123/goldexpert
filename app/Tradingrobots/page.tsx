@@ -3,16 +3,17 @@ import "../globals.css";
 import Image from "next/image";
 import tabela1 from "@/app/images/tabela1.png";
 import tabela2 from "@/app/images/tabela2.png";
-import Smalcard from "../components/Smalcard";
+import Smalcard from "../components/RobotsSmallcard";
 import moneyrise2 from "@/public/moneyrise2.png";
 import PopupButton from "@/app/components/PopupButton";
+import RobotsSmallcard from "../components/RobotsSmallcard";
 
 export default function Tradingrobots() {
   return (
-    <div className="max-w-screen-1440p mx-auto">
+    <div className="mx-auto">
       <div className="pozadinaboja2  ">
         <Navbar />
-        <div className="my-20 ">
+        <div className="mt-20 ">
           <div className=" mx-auto flex items-center justify-center ">
             <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full mb-40 slideUpAnimacija">
               <h1 className=" text-2xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl ">
@@ -26,39 +27,37 @@ export default function Tradingrobots() {
           </div>
         </div>
       </div>
-      <div className="lg:flex justify-center items-center">
-        <Image
-          src={tabela1}
-          alt="slika"
-          className="max-h-screen object-contain"
-        />
-        <Image
-          src={tabela2}
-          alt="slika"
-          className="max-h-screen object-contain"
-        />
+      <div className=" bg-[#F6F9FC] flex  flex-col justify-center items-center ">
+        <div className="max-w-screen-1440p ">
+          <div className="md:flex ">
+            <Image src={tabela1} alt="slika" className=" " />
+            <Image src={tabela2} alt="slika" className=" " />
+          </div>
+        </div>
       </div>
       <div>
-        <div className="mx-auto lg:flex items-center  justify-center gap-7 sm:flex-row ">
-          <Smalcard
+        <div className="bg-[#F6F9FC] flex flex-col justify-center items-center gap-5 md:flex md:flex-row   ">
+          <RobotsSmallcard
             imageSrc1="/TimeIcon.png"
             title="Function "
             text="Automated trading software designed to analyze currency markets (forex) and execute trades based on pre-programmed algorithms."
           />
-          <Smalcard
+          <RobotsSmallcard
             imageSrc1="\TimeIcon.png"
             title="Strategy "
             text="Robot can employ various strategies, including technical analysis (using price charts and indicators) or news-based trading (reacting to economic events)."
           />
-          <Smalcard
+          <RobotsSmallcard
             imageSrc1="\TimeIcon.png"
             title="Benefits "
             text="24/7 market monitoring, automation of repetitive tasks, and potentially faster execution than manual trading."
           />
         </div>
       </div>
-      <div className=" text-center mt-5 mb-20">
-        <PopupButton />
+      <div className=" bg-[#F6F9FC] text-center pt-5 pb-20 md:pt-20">
+        <span className="neondugmence">
+          <PopupButton />
+        </span>
       </div>
       <div className="pozadinaboja2 flex  justify-center items-center">
         <div className=" pozadina2 mb-10 mt-10">
@@ -74,7 +73,9 @@ export default function Tradingrobots() {
               Empower your financial future with our AI trading<br></br> robots
               and start earning passive income today.
             </p>
-            <PopupButton />
+            <span className="neondugmence">
+              <PopupButton />
+            </span>
           </div>
           <div className="">
             <Image

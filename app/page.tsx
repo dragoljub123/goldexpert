@@ -238,7 +238,9 @@ export default async function Home() {
               Empower your financial future with our AI trading<br></br> robots
               and start earning passive income today.
             </p>
-            <PopupButton />
+            <span className="neondugmence">
+              <PopupButton />
+            </span>
           </div>
           <div className="">
             <Image

@@ -24,7 +24,7 @@ const SmallcardThree: React.FC<CardProps> = ({
           <span className="text-zlatna">{number}</span>
           {title}
         </h4>
-        <p className="text-sm">{description}</p>
+        <p className="text-sm ">{description}</p>
       </div>
       <div className=" flex justify-end  ">
         <img src={imageurlnumber} className=" w-full h-14" />

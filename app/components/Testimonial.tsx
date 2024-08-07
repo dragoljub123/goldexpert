@@ -22,7 +22,7 @@ const Testimonial: React.FC<TestimonialProps> = ({
           <span className="text-xl font-bold text-yellow-400">★★★★★</span>
         </div>
       </div>
-      <p className="mb-2 text-sm">{testimonial}</p>
+      <p className="mb-2 text-sm text-gray-700">{testimonial}</p>
       <div className="flex items-center p-2">
         <img
           src={imageSrc}
@@ -31,7 +31,7 @@ const Testimonial: React.FC<TestimonialProps> = ({
         />
         <div>
           <p className="font-bold">{name}</p>
-          <p className="text-sm">{location}</p>
+          <p className="text-sm text-gray-700">{location}</p>
         </div>
       </div>
     </div>

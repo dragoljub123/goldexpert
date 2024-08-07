@@ -140,18 +140,20 @@ export default async function Home() {
           </p>
         </div>
       </div>
-      <div className="bg-[#F6F9FC]  ">
-        <div className="flex flex-col  gap-10 justify-center items-center md:flex md:flex-row md:justify-center md:items-center">
-          <Smalcard
-            imageSrc1="/Money Bag.png"
-            title="Insured Funds "
-            text="Your funds are secured by 80% real estate collateral, ensuring both insurance and security on our trading robot platform."
-          />
-          <Smalcard
-            imageSrc1="\Secure.png"
-            title="Regulated and Secure "
-            text="We adhere to strict regulatory standards and employ robust security measures to safeguard your assets."
-          />
+      <div className="bg-[#F6F9FC] flex  justify-evenly items-center  ">
+        <div className="max-w-screen-1440p ">
+          <div className="flex flex-col  gap-10 justify-center items-center md:flex md:flex-row md:justify-center md:items-center">
+            <Smalcard
+              imageSrc1="/Money Bag.png"
+              title="Insured Funds "
+              text="Your funds are secured by 80% real estate collateral, ensuring both insurance and security on our trading robot platform."
+            />
+            <Smalcard
+              imageSrc1="\Secure.png"
+              title="Regulated and Secure "
+              text="We adhere to strict regulatory standards and employ robust security measures to safeguard your assets."
+            />
+          </div>
         </div>
       </div>
       <div className="flex  justify-evenly items-center bg-[#F6F9FC] nevidljivo-mob ">

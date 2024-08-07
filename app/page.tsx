@@ -163,7 +163,7 @@ export default async function Home() {
             <p className="text-gray-700 text-center mb-4 text-sm p-10 ">
               Read the testimonials from our happy clients
             </p>
-            <div className="flex  justify-evenly items-center">
+            <div className="flex gap-5 justify-evenly items-center">
               <Testimonial
                 name="Emma Walker"
                 location="Dubai"
@@ -183,7 +183,7 @@ export default async function Home() {
                 testimonial="Impressed by how the Forex AI robot has simplified trading for me. It's reliable and profitable!"
               />
             </div>
-            <div className="flex  justify-evenly items-center">
+            <div className="flex gap-5 justify-evenly items-center pt-5">
               <Testimonial
                 name="Liam Patel"
                 location="Thailand"

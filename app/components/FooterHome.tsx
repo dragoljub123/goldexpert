@@ -2,6 +2,7 @@ import React from "react";
 import goldexpertlogo2 from "../images/goldexpertlogo2.png";
 import Image from "next/image";
 import "../globals.css";
+import { FaDiscord } from "react-icons/fa";
 
 import {
   FaFacebook,
@@ -15,9 +16,9 @@ import { link } from "fs";
 
 export const FooterHome: React.FC = () => {
   return (
-    <div className=" mt-10 max-w-screen-1440p mx-auto">
+    <div className=" mt-10 max-w-screen-1440p mx-auto px-20">
       <footer className="lg:flex  justify-between  border-b-[1px] mb-5">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
           <Link href={"/"}>
             <Image
               src={goldexpertlogo2}
@@ -45,7 +46,7 @@ export const FooterHome: React.FC = () => {
           </li>
         </ul>
 
-        <div className="social-icons flex gap-4  justify-center items-center my-4">
+        <div className="social-icons flex gap-4  justify-center items-center my-4 text-2xl">
           <a
             href="https://www.facebook.com"
             target="_blank"
@@ -54,32 +55,18 @@ export const FooterHome: React.FC = () => {
             <FaFacebook />
           </a>
           <a
+            href="https://discord.com/your-server-invite"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaDiscord />
+          </a>
+          <a
             href="https://www.twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaTwitter />
-          </a>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram />
-          </a>
-          <a
-            href="https://www.linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="https://www.youtube.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaYoutube />
           </a>
         </div>
       </footer>

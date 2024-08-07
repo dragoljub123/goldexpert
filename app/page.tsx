@@ -35,7 +35,7 @@ export default async function Home() {
   console.log(posts, "posts");
 
   return (
-    <div className=" mx-auto">
+    <div className=" mx-auto ">
       <div className="pozadina  ">
         <Navbar />
         <div className="my-40 slideUpAnimacija items-center justify-center text-center">

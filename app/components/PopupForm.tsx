@@ -58,15 +58,16 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
           Start earning passive income today
         </h1>
         <div className="flex flex-col md:flex-row justify-center mb-6">
-          <div className="flex-1 mx-2 p-2 border rounded-lg mb-4 md:mb-0">
+          <label
+            htmlFor="option1"
+            className="flex-1 mx-2 p-2 border rounded-lg mb-4 md:mb-0 cursor-pointer"
+          >
             <div className="flex items-center justify-between mb-4">
-              <label htmlFor="option1" className="font-bold">
-                Gold Robot
-              </label>
+              <span className="font-bold">Gold Robot</span>
               <input
                 type="checkbox"
                 id="option1"
-                className="appearance-none rounded-full h-5 w-5 border border-gray-300 checked:bg-customBlue checked:border-transparent focus:outline-none focus:ring-2 focus:ring-customBlue md:ml-2 "
+                className="appearance-none rounded-full h-5 w-5 border border-gray-300 checked:bg-customBlue checked:border-transparent focus:outline-none focus:ring-2 focus:ring-customBlue md:ml-2"
                 checked={goldRobot}
                 onChange={(e) => setGoldRobot(e.target.checked)}
               />
@@ -74,12 +75,13 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
             <p className="text-sm text-gray-700">
               Programmed to capitalize on opportunities in the gold market.
             </p>
-          </div>
-          <div className="flex-1 mx-2 p-2 border rounded-lg">
+          </label>
+          <label
+            htmlFor="option2"
+            className="flex-1 mx-2 p-2 border rounded-lg cursor-pointer"
+          >
             <div className="flex items-center justify-between mb-4">
-              <label htmlFor="option2" className="font-bold">
-                Forex Robot
-              </label>
+              <span className="font-bold">Forex Robot</span>
               <input
                 type="checkbox"
                 id="option2"
@@ -91,7 +93,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
             <p className="text-sm text-gray-700">
               Execute trades based on pre-programmed algorithms.
             </p>
-          </div>
+          </label>
         </div>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">

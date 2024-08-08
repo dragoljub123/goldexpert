@@ -14,7 +14,7 @@ export default function AboutUS() {
         <Navbar />
         <div className="my-20 ">
           <div className=" mx-auto flex items-center justify-center ">
-            <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full mb-20 slideUpAnimacija">
+            <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full mb-5 slideUpAnimacija">
               <h1 className="text-2xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl ">
                 About Us
               </h1>
@@ -25,20 +25,20 @@ export default function AboutUS() {
           </div>
         </div>
 
-        <div className="lg:flex lg:justify-center lg:items-center">
-          <div className="kontejner  m-10 rounded-lg lg:w-[1280px] lg:flex lg:justify-center lg:items-center ">
+        <div className="flex flex-col justify-center items-center ">
+          <div className="kontejner  mb-10 rounded-lg w-[390px] lg:w-[1280px] lg:flex lg:justify-between lg:items-center ">
             <div className=" text-white rounded-md">
-              <h1 className="text-xl font-bold mb-6 mt-6 text-left lg:text-3xl p-2 ">
+              <h1 className="text-xl font-bold p-4  mb-6 mt-6 text-left lg:text-3xl  ">
                 We Are <span className=" zlatnozuta">Goldex</span>expert AI
               </h1>
-              <p className="text-sm p-2 ">
+              <p className="text-sm p-4 ">
                 Founded by a team of seasoned traders and tech enthusiasts,
                 <br></br>
                 Goldexpert was born out of a desire to revolutionize the trading
                 <br></br>
                 industry.{" "}
               </p>
-              <p className="text-sm p-2">
+              <p className="text-sm p-4">
                 We recognized the potential of automation in trading and
                 <br></br> dedicated ourselves to developing sophisticated robots
                 that
@@ -48,7 +48,7 @@ export default function AboutUS() {
                 everyone.
               </p>
             </div>
-            <div className="">
+            <div className="-mb-10 md:mb-0">
               <Image
                 src={poslovniljudi}
                 alt="slika"

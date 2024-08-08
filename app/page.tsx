@@ -38,18 +38,21 @@ export default async function Home() {
     <div className=" mx-auto ">
       <div className="pozadina  ">
         <Navbar />
-        <div className="my-40 slideUpAnimacija items-center justify-center text-center">
-          <div className="inline-flex   p-1 rounded-full shadow-neon bg-transparent">
-            <Image
-              src={OneGreenStar}
-              alt="OneGreenStar"
-              className="max-h-screen object-contain"
-            />
-            <p className="text-white text-xs tracking-widest">
-              {" "}
-              &nbsp; RATED 4.8/5 on TRUSTPILOT&nbsp;{" "}
-            </p>
+        <div className="my-40 slideUpAnimacija  ">
+          <div className=" flex  justify-center">
+            <div className="inline-flex   p-1 rounded-full shadow-neon bg-transparent">
+              <Image
+                src={OneGreenStar}
+                alt="OneGreenStar"
+                className="max-h-screen object-contain"
+              />
+              <p className="text-white text-xs tracking-widest">
+                {" "}
+                &nbsp; RATED 4.8/5 on TRUSTPILOT&nbsp;{" "}
+              </p>
+            </div>
           </div>
+
           <div className=" mx-auto flex items-center justify-center ">
             <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full">
               <h1 className="text-3xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl leading-relaxed">
@@ -63,7 +66,7 @@ export default async function Home() {
                 Automated Trading Solutions for Gold, NASDAQ, Bitcoin, and Forex
                 Markets
               </p>
-              <span className="neondugmence">
+              <span className="neondugmence levo-tekst">
                 <PopupButton />
               </span>
             </div>

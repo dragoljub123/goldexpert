@@ -25,6 +25,7 @@ const config: Config = {
         zlatna: '#c69638',
         lightblue: '#121B34',
         oblacicsiva:'#F9F9FB',
+        abutusboja:'#0a0f1b',
         
       },
       boxShadow: {

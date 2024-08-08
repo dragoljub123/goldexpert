@@ -57,38 +57,38 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
         <h1 className="text-xl font-bold mb-6 text-center">
           Start earning passive income today
         </h1>
-        <div className="flex  justify-center mb-6">
-          <div className="flex-1 mx-2 p-4 border rounded-lg">
-            <div className="flex items-center mb-4">
-              <label htmlFor="option1" className="font-bold ">
+        <div className="flex flex-col md:flex-row justify-center mb-6">
+          <div className="flex-1 mx-2 p-2 border rounded-lg mb-4 md:mb-0">
+            <div className="flex items-center justify-between mb-4">
+              <label htmlFor="option1" className="font-bold">
                 Gold Robot
               </label>
               <input
                 type="checkbox"
                 id="option1"
-                className="form-checkbox h-5 w-5 text-customBlue ml-2"
+                className="appearance-none rounded-full h-5 w-5 border border-gray-300 checked:bg-customBlue checked:border-transparent focus:outline-none focus:ring-2 focus:ring-customBlue md:ml-2 "
                 checked={goldRobot}
                 onChange={(e) => setGoldRobot(e.target.checked)}
               />
             </div>
-            <p className="text-sm">
+            <p className="text-sm text-gray-700">
               Programmed to capitalize on opportunities in the gold market.
             </p>
           </div>
-          <div className="flex-1 mx-2 p-4 border rounded-lg">
-            <div className="flex items-center mb-4">
-              <label htmlFor="option2" className="font-bold ">
+          <div className="flex-1 mx-2 p-2 border rounded-lg">
+            <div className="flex items-center justify-between mb-4">
+              <label htmlFor="option2" className="font-bold">
                 Forex Robot
               </label>
               <input
                 type="checkbox"
                 id="option2"
-                className="form-checkbox h-5 w-5 text-customBlue ml-2"
+                className="appearance-none rounded-full h-5 w-5 border border-gray-300 checked:bg-customBlue checked:border-transparent focus:outline-none focus:ring-2 focus:ring-customBlue md:ml-2"
                 checked={forexRobot}
                 onChange={(e) => setForexRobot(e.target.checked)}
               />
             </div>
-            <p className="text-sm">
+            <p className="text-sm text-gray-700">
               Execute trades based on pre-programmed algorithms.
             </p>
           </div>

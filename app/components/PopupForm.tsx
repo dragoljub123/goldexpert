@@ -38,6 +38,10 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
 
       const result = await response.json();
       console.log(result.message);
+
+      // Display alert on successful submission
+      alert("Form submitted successfully!");
+
       onClose(); // Close the popup or perform other actions on success
     } catch (error) {
       console.error("Error saving form data:", error);
@@ -62,8 +66,8 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
             htmlFor="option1"
             className="flex-1 mx-2 p-2 border rounded-lg mb-4 md:mb-0 cursor-pointer bg-gray-50"
           >
-            <div className="flex items-center justify-between mb-4 ">
-              <span className="font-bold md:px-1 ">Gold Robot</span>
+            <div className="flex items-center justify-between mb-4">
+              <span className="font-bold md:px-1">Gold Robot</span>
               <input
                 type="checkbox"
                 id="option1"
@@ -72,7 +76,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
                 onChange={(e) => setGoldRobot(e.target.checked)}
               />
             </div>
-            <p className="text-xs md:px-1  text-gray-700 bg-gray-50">
+            <p className="text-xs md:px-1 text-gray-700 bg-gray-50">
               Programmed to capitalize on opportunities in the gold market.
             </p>
           </label>
@@ -81,7 +85,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
             className="flex-1 mx-2 p-2 border rounded-lg cursor-pointer bg-gray-50"
           >
             <div className="flex items-center justify-between mb-4">
-              <span className="font-bold md:px-1 ">Forex Robot</span>
+              <span className="font-bold md:px-1">Forex Robot</span>
               <input
                 type="checkbox"
                 id="option2"

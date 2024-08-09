@@ -74,7 +74,7 @@ export default function AboutUS() {
             <div className="p-4 border-[1px] h-[275px] lg:w-[260px] xl:w-auto  ">
               <SmallcardThree
                 imageurlnumber="\one.png"
-                imageUrl="\Financial Growth.png"
+                imageUrl="\Financial Growth(5).png"
                 title=" Advanced Technology"
                 description="Our trading robots are powered by state-of-the-art algorithms and technology, providing you with a   edge in the market."
                 number="1"
@@ -83,7 +83,7 @@ export default function AboutUS() {
             <div className=" p-4 border-[1px] h-[275px] lg:w-[260px] xl:w-auto ">
               <SmallcardThree
                 imageurlnumber="\two.png"
-                imageUrl="\Safety Box.png"
+                imageUrl="\Financial Growth(6).png"
                 title=" Proven Strategies"
                 description="We combine years of trading experience with innovative technology to deliver reliable and profitable trading strategies."
                 number="2"
@@ -92,7 +92,7 @@ export default function AboutUS() {
             <div className=" p-4 border-[1px] h-[275px] lg:w-[260px] xl:w-auto ">
               <SmallcardThree
                 imageurlnumber="\two.png"
-                imageUrl="\Risk.png"
+                imageUrl="\Financial Growth(7).png"
                 title=" Secure and Reliable"
                 description="Your security is our top priority. We adhere to strict regulatory standards and employ robust security measures to protect your investments."
                 number="3"
@@ -101,7 +101,7 @@ export default function AboutUS() {
             <div className=" p-4 border-[1px] h-[275px] lg:w-[260px] xl:w-auto ">
               <SmallcardThree
                 imageurlnumber="\two.png"
-                imageUrl="\Risk.png"
+                imageUrl="\Financial Growth(8).png"
                 title=" Comprehensive Support"
                 description="From setup to troubleshooting, our support team is here to assist you at every step of your trading journey."
                 number="4"

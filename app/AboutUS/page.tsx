@@ -10,7 +10,7 @@ import PopupButton from "@/app/components/PopupButton";
 export default function AboutUS() {
   return (
     <div className=" mx-auto">
-      <div className="pozadinaboja2  ">
+      <div className="pozadinaFQ  ">
         <Navbar />
         <div className="my-20 ">
           <div className=" mx-auto flex items-center justify-center ">

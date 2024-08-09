@@ -11,7 +11,7 @@ import RobotsSmallcard from "../components/RobotsSmallcard";
 export default function Tradingrobots() {
   return (
     <div className="mx-auto">
-      <div className="pozadinaboja2  ">
+      <div className="pozadinaFQ   ">
         <Navbar />
         <div className="mt-20 ">
           <div className=" mx-auto flex items-center justify-center ">
@@ -62,8 +62,8 @@ export default function Tradingrobots() {
           />
         </div>
       </div>
-      <div className=" bg-[#F6F9FC] text-center pt-5 pb-20 md:pt-20">
-        <span className="">
+      <div className=" bg-[#F6F9FC]  pt-5 pb-20 md:pt-20">
+        <span className="flex justify-center ">
           <PopupButton />
         </span>
       </div>

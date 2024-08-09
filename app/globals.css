@@ -229,3 +229,8 @@ ul {
 .neondugmence {
   box-shadow: 0 0 20px rgba(56, 82, 172, 0.8);
 }
+.pozadinaFQ {
+  background: #0a0f1b;
+  background-image: url("images/zvezdepoz.png");
+  background-size: cover;
+}

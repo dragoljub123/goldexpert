@@ -8,15 +8,15 @@ import PopupButton from "../components/PopupButton";
 export default function FAQs() {
   return (
     <div className=" mx-auto">
-      <div className="pozadinaboja2  ">
+      <div className="pozadinaFQ ">
         <Navbar />
         <div className="py-20">
           <div className="mx-auto flex items-center justify-center slideUpAnimacija ">
             <div className="max-w-screen-xl mx-auto flex flex-col justify-between items-center px-4 lg:px-0 h-full mb-20">
-              <h1 className="text-2xl text-white font-bold mb-6 mt-6 text-center lg:text-4xl">
+              <h1 className="text-3xl text-white font-bold mb-6 mt-6 text-center lg:text-4xl">
                 FAQ&apos;s
               </h1>
-              <p className="text-white mb-4">
+              <p className="text-gray-400 mb-4 text-center">
                 Find answers to the most common questions about our trading
                 robots
               </p>
@@ -26,8 +26,8 @@ export default function FAQs() {
       </div>
       <div className="pozadinaboja2 flex-col  justify-center items-center ">
         <div className="flex justify-center items-center">
-          <div className="max-w-screen-1440p w-full">
-            <h1 className="font-bold text-white text-2xl px-4 lg:px-52 lg:py-10 ">
+          <div className="max-w-screen-1440p mx-auto w-full ">
+            <h1 className="font-bold text-white text-2xl px-4 lg:px-20 lg:py-10 ">
               Frequently Asked Questions
             </h1>
             <FaqComponent

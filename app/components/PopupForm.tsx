@@ -60,9 +60,9 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
         <div className="flex flex-col md:flex-row justify-center mb-6">
           <label
             htmlFor="option1"
-            className="flex-1 mx-2 p-2 border rounded-lg mb-4 md:mb-0 cursor-pointer"
+            className="flex-1 mx-2 p-2 border rounded-lg mb-4 md:mb-0 cursor-pointer bg-gray-50"
           >
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center justify-between mb-4 ">
               <span className="font-bold">Gold Robot</span>
               <input
                 type="checkbox"
@@ -72,13 +72,13 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
                 onChange={(e) => setGoldRobot(e.target.checked)}
               />
             </div>
-            <p className="text-sm text-gray-700">
+            <p className="text-sm text-gray-700 bg-gray-50">
               Programmed to capitalize on opportunities in the gold market.
             </p>
           </label>
           <label
             htmlFor="option2"
-            className="flex-1 mx-2 p-2 border rounded-lg cursor-pointer"
+            className="flex-1 mx-2 p-2 border rounded-lg cursor-pointer bg-gray-50"
           >
             <div className="flex items-center justify-between mb-4">
               <span className="font-bold">Forex Robot</span>
@@ -106,8 +106,8 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
             <input
               type="text"
               id="fullName"
-              className="w-full p-2 border rounded-lg"
-              placeholder="Enter your full name"
+              className="w-full p-2 border rounded-lg bg-gray-50"
+              placeholder=""
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
             />
@@ -119,8 +119,8 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
             <input
               type="email"
               id="email"
-              className="w-full p-2 border rounded-lg"
-              placeholder="Enter your email"
+              className="w-full p-2 border rounded-lg bg-gray-50"
+              placeholder=""
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -132,8 +132,8 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
             <input
               type="tel"
               id="phone"
-              className="w-full p-2 border rounded-lg"
-              placeholder="Enter your phone number"
+              className="w-full p-2 border rounded-lg bg-gray-50"
+              placeholder=""
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
             />

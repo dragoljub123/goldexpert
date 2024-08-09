@@ -62,16 +62,12 @@ export default async function Home() {
                   AI Trading Robots
                 </span>
               </h1>
-              <h1 className="lg:hidden block  text-[23px]  text-white font-bold mb-6 mt-6 text-center lg:text-4xl leading-relaxed">
+              <h1 className="lg:hidden block text-[23px]  text-white font-bold mb-6 mt-6 text-center lg:text-4xl leading-relaxed ">
                 Maximize Your Profits with our
                 <br></br>
-                <h1 className="flex justify-center">
-                  Advanced&nbsp;
-                  <span className="zlatnozuta flex items-center justify-center leading-relaxed ">
-                    Trading&nbsp;
-                  </span>
-                  Robots
-                </h1>
+                <span className="">Advanced&nbsp;</span>
+                <span className="zlatnozuta">Trading&nbsp;</span>
+                Robots
               </h1>
               <p className="text-white text-sm mb-4 text-center tracking-wide">
                 Automated Trading Solutions for Gold, NASDAQ, Bitcoin, and Forex

@@ -14,11 +14,8 @@ const Suportkartice: React.FC<CardProps> = ({
   description,
 }) => {
   return (
-    <div
-      className="cardb3  bojakarticeUS"
-      style={{ width: "413px", height: "294px" }}
-    >
-      <div className="flex flex-col  justify-between items-center ">
+    <div className=" rounded-2xl bojakarticeUS w-[360px]  sm:h-[294px] ">
+      <div className="flex flex-col  justify-evenly items-center mt-5 ">
         <img
           src={imageSrc}
           alt="Card1235678"
@@ -29,8 +26,8 @@ const Suportkartice: React.FC<CardProps> = ({
           <h5 className="text-2xl px-3 font-bold">{title}</h5>
         </div>
       </div>
-      <div className="card-bodyb3 text-white ">
-        <p className=" text-sm text-center">{description}</p>
+      <div className="mt-5  ">
+        <p className=" text-center text-gray-400 p-4 ">{description}</p>
       </div>
     </div>
   );

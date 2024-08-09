@@ -26,7 +26,7 @@ export default function AboutUS() {
         </div>
 
         <div className="flex flex-col justify-center items-center ">
-          <div className="kontejner  mb-10 rounded-lg w-[390px] lg:w-[1280px] lg:flex lg:justify-between lg:items-center ">
+          <div className="kontejner  mb-10 rounded-2xl w-[390px] lg:w-[980px] xl:w-[1280px] lg:flex lg:justify-between lg:items-center ">
             <div className=" text-white rounded-md">
               <h1 className="text-xl font-bold p-4  mb-6 mt-6 text-left lg:text-3xl  ">
                 We Are <span className=" zlatnozuta">Goldex</span>expert AI
@@ -71,7 +71,7 @@ export default function AboutUS() {
             </div>
           </div>
           <div className=" lg:flex justify-center  mb-20">
-            <div className="p-4 border-[1px] h-[275px]">
+            <div className="p-4 border-[1px] h-[275px] lg:w-[260px] xl:w-auto  ">
               <SmallcardThree
                 imageurlnumber="\one.png"
                 imageUrl="\Financial Growth.png"
@@ -80,7 +80,7 @@ export default function AboutUS() {
                 number="1"
               />
             </div>
-            <div className=" p-4 border-[1px] h-[275px]">
+            <div className=" p-4 border-[1px] h-[275px] lg:w-[260px] xl:w-auto ">
               <SmallcardThree
                 imageurlnumber="\two.png"
                 imageUrl="\Safety Box.png"
@@ -89,7 +89,7 @@ export default function AboutUS() {
                 number="2"
               />
             </div>
-            <div className=" p-4 border-[1px] h-[275px]">
+            <div className=" p-4 border-[1px] h-[275px] lg:w-[260px] xl:w-auto ">
               <SmallcardThree
                 imageurlnumber="\two.png"
                 imageUrl="\Risk.png"
@@ -98,7 +98,7 @@ export default function AboutUS() {
                 number="3"
               />
             </div>
-            <div className=" p-4 border-[1px] h-[275px]">
+            <div className=" p-4 border-[1px] h-[275px] lg:w-[260px] xl:w-auto ">
               <SmallcardThree
                 imageurlnumber="\two.png"
                 imageUrl="\Risk.png"
@@ -125,7 +125,7 @@ export default function AboutUS() {
             </p>
           </div>
         </div>
-        <div className=" justify-center flex flex-col sm:flex-row  items-center py-20 gap-10  ">
+        <div className=" flex flex-col  justify-center lg:flex-row  items-center py-20 gap-10  ">
           <Suportkartice
             title2=""
             title=" Trading Experts"

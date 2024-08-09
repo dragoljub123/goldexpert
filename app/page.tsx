@@ -168,7 +168,7 @@ export default async function Home() {
       </div>
       <div className="flex  justify-evenly items-center bg-[#F6F9FC] nevidljivo-mob ">
         <div className="max-w-screen-1440p">
-          <div className="  flex-col justify-center pb-20 ">
+          <div className="  flex-col justify-center pb-20 md:w-[768px] lg:w-full">
             <h1 className="text-2xl font-bold pt-20  lg:text-4xl text-center">
               Happy Customers
             </h1>

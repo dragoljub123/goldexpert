@@ -33,12 +33,12 @@ export default function Tradingrobots() {
             <Image
               src={tabela1}
               alt="slika"
-              className=" cursor-pointer transition duration-300 ease-in-out hover:scale-150"
+              className=" cursor-pointer transition duration-300 ease-in-out hover:scale-105"
             />
             <Image
               src={tabela2}
               alt="slika"
-              className="cursor-pointer transition duration-300 ease-in-out hover:scale-150 "
+              className="cursor-pointer transition duration-300 ease-in-out hover:scale-105 "
             />
           </div>
         </div>

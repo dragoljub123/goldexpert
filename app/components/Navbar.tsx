@@ -42,7 +42,7 @@ export const Navbar = () => {
 
         <div className="lg:hidden">
           <div className="flex gap-5 justify-center items-center">
-            <span className="neondugmence w-[120px] h-[20px]  text-xs flex  justify-center items-center ">
+            <span className=" w-[120px] h-[20px]  text-xs flex  justify-center items-center ">
               <PopupButton />
             </span>
             <button

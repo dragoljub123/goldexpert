@@ -55,25 +55,25 @@ export default function Tradingrobots() {
         </div>
       </div>
       <div className=" bg-[#F6F9FC] text-center pt-5 pb-20 md:pt-20">
-        <span className="neondugmence">
+        <span className="">
           <PopupButton />
         </span>
       </div>
       <div className="pozadinaboja2 flex  justify-center items-center">
         <div className=" pozadina2 mb-10 mt-10">
-          <div className="text-center lg:text-left lg:ml-16 lg:mt-36">
-            <h1 className="text-2xl  text-white font-bold mb-6 mt-6  lg:text-4xl  ">
+          <div className=" lg:text-left lg:ml-16 lg:mt-36">
+            <h1 className="text-2xl text-center text-white font-bold mb-6 mt-6 sm:text-left lg:text-4xl  ">
               Start Earning
-              <span className="zlatnozuta  ">
+              <span className="zlatnozuta">
                 Passive <br></br>Income
               </span>
               <span>Today</span>
             </h1>
-            <p className="text-white mb-4 ">
+            <p className="text-white mb-4 text-center sm:text-left">
               Empower your financial future with our AI trading<br></br> robots
               and start earning passive income today.
             </p>
-            <span className="neondugmence">
+            <span className="text-center sm:text-left">
               <PopupButton />
             </span>
           </div>

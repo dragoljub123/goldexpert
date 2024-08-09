@@ -55,18 +55,29 @@ export default async function Home() {
 
           <div className=" mx-auto flex items-center justify-center ">
             <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center px-4 lg:px-0 h-full">
-              <h1 className="text-3xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl leading-relaxed">
+              <h1 className="lg:block hidden text-2xl  text-white font-bold mb-6 mt-6 text-center lg:text-4xl leading-relaxed">
                 Earn Passive Income with
                 <br></br>
                 <span className="zlatnozuta flex items-center justify-center leading-relaxed ">
                   AI Trading Robots
                 </span>
               </h1>
-              <p className="text-white mb-4 text-center tracking-wide">
+              <h1 className="lg:hidden block  text-[23px]  text-white font-bold mb-6 mt-6 text-center lg:text-4xl leading-relaxed">
+                Maximize Your Profits with our
+                <br></br>
+                <h1 className="flex justify-center">
+                  Advanced&nbsp;
+                  <span className="zlatnozuta flex items-center justify-center leading-relaxed ">
+                    Trading&nbsp;
+                  </span>
+                  Robots
+                </h1>
+              </h1>
+              <p className="text-white text-sm mb-4 text-center tracking-wide">
                 Automated Trading Solutions for Gold, NASDAQ, Bitcoin, and Forex
                 Markets
               </p>
-              <span className="neondugmence levo-tekst">
+              <span className=" levo-tekst">
                 <PopupButton />
               </span>
             </div>
@@ -74,7 +85,7 @@ export default async function Home() {
         </div>
       </div>
 
-      <div className=" bg-[#F6F9FC] justify-center flex flex-col sm:flex-row  items-center py-20 gap-28 ">
+      <div className=" bg-[#F6F9FC]  flex flex-col justify-center  md:flex-row  items-center py-20 gap-28 md:gap-20 lg:gap-10 ">
         <div className=" max-w-screen-1440p  flex flex-col items-center z-30">
           <BigCard3
             title2=" Gold"
@@ -106,7 +117,7 @@ export default async function Home() {
             </p>
           </div>
         </div>
-        <div className=" belitekst  justify-center gap-10 flex flex-col sm:flex-row items-center">
+        <div className=" belitekst  justify-center gap-10 flex flex-col md:flex-row items-center">
           <SmallcardThree
             imageurlnumber="\one.png"
             imageUrl="\Financial Growth.png"
@@ -229,19 +240,19 @@ export default async function Home() {
 
       <div className="pozadinaboja2 flex  justify-center items-center">
         <div className=" pozadina2 mb-10 mt-10">
-          <div className="text-center lg:text-left lg:ml-16 lg:mt-36">
-            <h1 className="text-2xl  text-white font-bold mb-6 mt-6  lg:text-4xl  ">
+          <div className=" lg:text-left lg:ml-16 lg:mt-36">
+            <h1 className="text-2xl text-center text-white font-bold mb-6 mt-6 sm:text-left lg:text-4xl  ">
               Start Earning
               <span className="zlatnozuta">
                 Passive <br></br>Income
               </span>
               <span>Today</span>
             </h1>
-            <p className="text-white mb-4 ">
+            <p className="text-white mb-4 text-center sm:text-left">
               Empower your financial future with our AI trading<br></br> robots
               and start earning passive income today.
             </p>
-            <span className="neondugmence">
+            <span className=" text-center sm:text-left">
               <PopupButton />
             </span>
           </div>

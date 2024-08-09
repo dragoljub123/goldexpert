@@ -118,16 +118,10 @@
 }
 
 .cardb3 {
-  border-radius: 18px;
+  border-radius: 12px;
   background: #e9eef7;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(3.5px);
-}
-@media (min-width: 768px) {
-  .cardb3 {
-    width: 568px;
-    height: 542px;
-  }
 }
 
 .zlatntext {
@@ -232,6 +226,6 @@ ul {
     opacity: 1;
   }
 }
-.neondugmence button {
+.neondugmence {
   box-shadow: 0 0 20px rgba(56, 82, 172, 0.8);
 }

@@ -16,7 +16,7 @@ const Testimonial: React.FC<TestimonialProps> = ({
   testimonial,
 }) => {
   return (
-    <div className="bg-[#F0F3F8] text-black p-4 rounded-xl w-[350px] ">
+    <div className="bg-gray-100 text-black p-4 rounded-xl w-[350px] ">
       <div className="flex justify-between items-center mb-2">
         <div className="flex items-center">
           <span className="text-xl font-bold text-yellow-400">★★★★★</span>

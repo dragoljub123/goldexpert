@@ -44,7 +44,7 @@ const ContactForm: React.FC = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="mx-auto p-4 space-y-4 bg-lightblue shadow-md rounded-lg max-w-lg sm:max-w-2xl"
+      className="mx-auto p-4 space-y-4 bg-lightblue shadow-md rounded-lg  sm:w-fit"
     >
       <div className="flex flex-col space-y-4">
         <div className="flex flex-col sm:flex-row sm:space-x-4">
@@ -63,7 +63,7 @@ const ContactForm: React.FC = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              className=" text-white placeholder-white mt-1 block w-full h-14 bg-[#141E3B] rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+              className=" text-white placeholder-white mt-1 block w-[330px] h-14 bg-[#141E3B] rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             />
           </div>
           <div className="flex-1">
@@ -81,7 +81,7 @@ const ContactForm: React.FC = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              className="text-white placeholder-white mt-1 block w-full h-14 bg-[#141E3B] rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+              className="text-white placeholder-white mt-1 block w-[330px] h-14 bg-[#141E3B] rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             />
           </div>
         </div>

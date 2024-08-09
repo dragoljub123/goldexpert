@@ -28,11 +28,11 @@ export default function ContactUs() {
           We&apos;re here to help. Reach out to us using the contact form below
           or through our support channels.
         </p>
-        <div className="bg-lightblue flex flex-col lg:flex-row justify-center items-center mx-auto p-4 space-y-4 lg:space-y-0 lg:space-x-4 shadow-md rounded-lg max-w-6xl">
-          <div className="flex flex-col max-w-screen-1440p  lg:w-1/2 p-4">
+        <div className="bg-lightblue flex flex-col lg:flex-row justify-center items-center mx-auto ">
+          <div className="flex flex-col max-w-screen-1440p   p-4">
             <ContactForm />
           </div>
-          <div className="flex flex-col   justify-evenlyn lg:w-1/2  space-y-4">
+          <div className="flex flex-col   justify-evenlyn   gap-10">
             <div className="">
               <Suportkartica2
                 title2=""

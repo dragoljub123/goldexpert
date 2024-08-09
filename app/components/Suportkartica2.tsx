@@ -14,23 +14,20 @@ const Suportkartica2: React.FC<CardProps> = ({
   description,
 }) => {
   return (
-    <div
-      className="cardb3  bojakarticeUS"
-      style={{ width: "327px", height: "231px" }}
-    >
-      <div className="flex flex-col  justify-between items-center ">
+    <div className=" bojakarticeUS rounded-lg lg:w-[227px] lg:h-[181px]">
+      <div className="flex flex-col  justify-between items-start ">
         <img
           src={imageSrc}
           alt="slika1567"
           style={{ width: "auto", height: "auto" }}
         />
         <div className="flex text-white ">
-          <h2 className="text-4xl px-2 zlatntext">{title2}</h2>
-          <h5 className="text-2xl px-3 font-bold">{title}</h5>
+          <h2 className="text-3xl  zlatntext">{title2}</h2>
+          <h5 className="text-[19px] px-2 font-bold">{title}</h5>
         </div>
       </div>
-      <div className="card-bodyb3 text-white  ">
-        <p className=" text-center text-sm">{description}</p>
+      <div className="card-bodyb3 text-gray-400  ">
+        <p className=" text-left text-xs">{description}</p>
       </div>
     </div>
   );

@@ -102,7 +102,7 @@ export default async function Home() {
         </div>
       </div>
       <div className=" pozadinaboja bg-gradijent-pozadina">
-        <div className="  flex flex-col  justify-between items-center  ">
+        <div className="  pb-10 flex flex-col  justify-between items-center  ">
           <div className=" my-10 w-fit border-b border-white flex flex-col  justify-between items-center">
             <h2 className=" text-4xl p-2  text-white font-bold">
               How it Works
@@ -113,7 +113,7 @@ export default async function Home() {
             </p>
           </div>
         </div>
-        <div className=" belitekst  justify-center gap-10 flex flex-col md:flex-row items-center">
+        <div className=" belitekst   flex flex-col justify-center items-center gap-8 lg:gap-12 md:flex-row  ">
           <SmallcardThree
             imageurlnumber="\one.png"
             imageUrl="\Financial Growth.png"
@@ -152,7 +152,7 @@ export default async function Home() {
       </div>
       <div className="bg-[#F6F9FC] flex  justify-evenly items-center  ">
         <div className="max-w-screen-1440p ">
-          <div className="flex flex-col  gap-10 justify-center items-center md:flex md:flex-row md:justify-center md:items-center">
+          <div className="pb-10 flex flex-col  gap-10 justify-center items-center md:flex md:flex-row md:justify-center md:items-center">
             <Smalcard
               imageSrc1="/Money Bag.png"
               title="Insured Funds "

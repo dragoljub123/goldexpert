@@ -13,9 +13,16 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
   const [goldRobot, setGoldRobot] = useState(false);
   const [forexRobot, setForexRobot] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [honeyHoolField, setHoneyHoolField] = useState(""); // HoneyHool field state
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
+
+    // Check HoneyHool field
+    if (honeyHoolField) {
+      setError("Spam detected.");
+      return;
+    }
 
     try {
       const response = await fetch("/api/saveFormData", {
@@ -142,6 +149,14 @@ const PopupForm: React.FC<PopupFormProps> = ({ onClose }) => {
               onChange={(e) => setPhone(e.target.value)}
             />
           </div>
+          {/* Hidden HoneyHool field */}
+          <input
+            type="text"
+            name="honeyHool"
+            style={{ display: "none" }}
+            value={honeyHoolField}
+            onChange={(e) => setHoneyHoolField(e.target.value)}
+          />
           <button
             type="submit"
             className="w-full py-2 bg-customBlue text-white rounded-2xl"

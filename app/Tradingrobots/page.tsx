@@ -30,16 +30,8 @@ export default function Tradingrobots() {
       <div className=" bg-[#F6F9FC] flex  flex-col justify-center items-center ">
         <div className="max-w-screen-1440p ">
           <div className="md:flex md:w-1/2 lg:w-[50%] xl:w-auto">
-            <Image
-              src={tabela1}
-              alt="slika"
-              className=" cursor-pointer transition duration-300 ease-in-out hover:scale-105"
-            />
-            <Image
-              src={tabela2}
-              alt="slika"
-              className="cursor-pointer transition duration-300 ease-in-out hover:scale-105 "
-            />
+            <Image src={tabela1} alt="slika" className="" />
+            <Image src={tabela2} alt="slika" className="" />
           </div>
         </div>
       </div>

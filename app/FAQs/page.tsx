@@ -74,19 +74,19 @@ export default function FAQs() {
 
       <div className="pozadinaboja2 flex  justify-center items-center">
         <div className=" pozadina2 mb-10 mt-10">
-          <div className=" lg:text-left lg:ml-16 lg:mt-36">
-            <h1 className="text-2xl text-center text-white font-bold mb-6 mt-6 sm:text-left lg:text-4xl  ">
+          <div className="md:ml-16 md:mt-36 lg:text-left lg:ml-16 lg:mt-36">
+            <h1 className="text-2xl text-center text-white font-bold mb-6 mt-6 md:text-left lg:text-4xl  ">
               Start Earning
               <span className="zlatnozuta">
                 Passive <br></br>Income
               </span>
               <span>Today</span>
             </h1>
-            <p className="text-white mb-4 text-center sm:text-left">
+            <p className="text-white mb-4 text-center md:text-left ">
               Empower your financial future with our AI trading<br></br> robots
               and start earning passive income today.
             </p>
-            <span className=" text-center sm:text-left">
+            <span className=" flex justify-center md:justify-normal">
               <PopupButton />
             </span>
           </div>

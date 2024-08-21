@@ -19,7 +19,7 @@ const Suportkartice: React.FC<CardProps> = ({
         <img
           src={imageSrc}
           alt="Card1235678"
-          style={{ width: "auto", height: "auto" }}
+          style={{ width: "61px", height: "58px" }}
         />
         <div className="flex text-white">
           <h2 className="text-4xl px-2 zlatntext">{title2}</h2>
